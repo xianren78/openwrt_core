@@ -34,8 +34,8 @@ URL: http://openwrt.org/
 Architecture: x86_64
 Installed-Size: 276480
 Filename: base-files_1~7381901_x86_64.ipk
-Size: 52746
-SHA256sum: d14b77c7dd41f5403a2afa7539066dfdccbacd7662c21d6fc6fc46ba3e498b8c
+Size: 52745
+SHA256sum: 4b3126e95b6eb4d81acde75dbc46db5af0cfef80e179282c6496b7a043c86017
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -110,8 +110,8 @@ URL: https://www.dpdk.org
 Architecture: x86_64
 Installed-Size: 1351680
 Filename: dpdk-tools_24.07-r1_x86_64.ipk
-Size: 368901
-SHA256sum: 34b04c9a980b12f49a0dd5e0dcd094a49f2f3640b186db7b82cb5c1222fe0cee
+Size: 368868
+SHA256sum: 1b47becbff409bc425ffbc63fcd2d70db657bab61166a6b67d6f5848fdbee5aa
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -987,16 +987,16 @@ SHA256sum: feb017747afb25b02ecc28e65ae15dcf923ee59883f5f53bf25be1c7cc08c10e
 Description:  Kernel module for AppleTalk protocol.
 
 Package: kmod-ar5523
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, kmod-ath, kmod-usb-core, kmod-input-core
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 122880
-Filename: kmod-ar5523_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 37816
-SHA256sum: da6780f03a841c904c0580705b63438e294f6180c76670dab04e038bca91073f
+Filename: kmod-ar5523_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 37894
+SHA256sum: 96d1cc0d2a4cfe98950cfec90e03260893e3fd90203a354b6e82556ef765e66b
 Description:  Driver for Atheros AR5523 USB sticks
 
 Package: kmod-arptables
@@ -1192,8 +1192,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1413120
 Filename: kmod-ath10k-ct-smallbuffers_6.18.14.2025.04.30~23ee90f0-r1_x86_64.ipk
-Size: 410257
-SHA256sum: 9674a8c65d930772c793999e35088aa4929e639fbe3df58812dae20356e17b87
+Size: 410870
+SHA256sum: fc28cd2e13fb0c37bd8c4ec29650345f4289657c249ede968232f0f06c098495
 Description:  ath10k-ct driver optimized for CT ath10k firmware (small buffers for low-RAM devices)
 
 Package: kmod-ath10k-ct
@@ -1205,77 +1205,78 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1413120
 Filename: kmod-ath10k-ct_6.18.14.2025.04.30~23ee90f0-r1_x86_64.ipk
-Size: 410062
-SHA256sum: 438a708599b64c198b67e1f7b71aeef2bba948e5b3ce5fc1aefb57536999988f
+Size: 410469
+SHA256sum: a8090d16f752301ad2217d9758501e208f58ccccfec74e4bc4e39663f5ba9c6f
 Description:  ath10k-ct driver optimized for CT ath10k firmware
 
 Package: kmod-ath10k-smallbuffers
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath
+Provides: @kmod-ath10k-any
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath10k
 Architecture: x86_64
 Installed-Size: 1239040
-Filename: kmod-ath10k-smallbuffers_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 359667
-SHA256sum: bea2017c22e158a6d61aeced8d2244d71fd4adf5bd6326f2b7d5da613493dd99
+Filename: kmod-ath10k-smallbuffers_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 360339
+SHA256sum: c6ec284aa02ad3545ac995605ee477ee3232f036e2aff6678e92e54fa343dc12
 Description:  Atheros 802.11ac wireless cards support (small buffers for low-RAM devices)
 
 Package: kmod-ath10k
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath10k
 Architecture: x86_64
 Installed-Size: 1239040
-Filename: kmod-ath10k_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 359604
-SHA256sum: 657054a157d696a9db054da39088587ede981ea297ae636543f5666e985cacad
+Filename: kmod-ath10k_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 360315
+SHA256sum: a805e3a387df5a4230bc97c60c5f7939b7be341e1de2ba53f862eb2a7e14a454
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11ac family of chipsets. For now only
  PCI is supported.
 
 Package: kmod-ath11k-pci
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-qrtr-mhi, kmod-ath11k
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath11k
 Architecture: x86_64
 Installed-Size: 112640
-Filename: kmod-ath11k-pci_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 36912
-SHA256sum: 149d2e01fa71a56d9df2e603b530a38f1adc6c82a25108f6fcd5b934073e48d1
+Filename: kmod-ath11k-pci_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 36944
+SHA256sum: bf659761bb7a57212f31bd11b51391571c126af3a581d46d2fe0cf3b096f8819
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets with PCI bus.
 
 Package: kmod-ath11k
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath, kmod-crypto-michael-mic, kmod-qcom-qmi-helpers
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath11k
 Architecture: x86_64
 Installed-Size: 1402880
-Filename: kmod-ath11k_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 371085
-SHA256sum: 2192a161501331776e2186452cb08b6ac78bcd3b5963bda31ccf9b7991d44158
+Filename: kmod-ath11k_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 370898
+SHA256sum: 0289ecbaeb231f57ae8329100b59849f9628c19b2182c3b30ca95d41b3483bf0
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets.
 
 Package: kmod-ath12k
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath, kmod-crypto-michael-mic, kmod-qrtr-mhi, kmod-qcom-qmi-helpers
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath12k
 Architecture: x86_64
-Installed-Size: 1669120
-Filename: kmod-ath12k_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 455010
-SHA256sum: ebf0de2cfd1273ba7b1bbd3bade4c7eb4099620c1e403c58ccc9ff06419952d4
+Installed-Size: 1679360
+Filename: kmod-ath12k_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 455487
+SHA256sum: e31febf06161d0d38d5cbcaccf92f6e31135f80c08193c924001dec3fccbaa06
 Description:  This module adds support for Qualcomm Technologies 802.11be family of
  chipsets with PCI bus.
 
@@ -1293,112 +1294,112 @@ SHA256sum: f8fa1c5928505dceaa4d0cf89abaaf59b1a4c6e0abb66f03d663332e9b61e242
 Description:  Kernel support for ATH3K Module
 
 Package: kmod-ath5k
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath5k
 Architecture: x86_64
 Installed-Size: 399360
-Filename: kmod-ath5k_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 122468
-SHA256sum: 6aa51b568f36349b07738e8bcf7237ddafabb202b994254d82294f2f353baddf
+Filename: kmod-ath5k_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 122084
+SHA256sum: 764432471437d58a580fcec9ee7b7ab0e435cc89f0afa1b96fbce6b6bd6dc799
 Description:  This module adds support for wireless adapters based on
  Atheros 5xxx chipset.
 
 Package: kmod-ath6kl-sdio
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mmc, kmod-ath6kl
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath6kl
 Architecture: x86_64
 Installed-Size: 71680
-Filename: kmod-ath6kl-sdio_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 22398
-SHA256sum: 47e04cbf4722d121d3e61f68bc496f96d9a2bd98ad97fd3fc8e1f3c6bfcf8611
+Filename: kmod-ath6kl-sdio_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 22412
+SHA256sum: 653a005afb8e5bb8582501e704940b492719a8bb90f4d735c832cfcfe0aa1724
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR6003 and AR6004 family of chipsets.
 
 Package: kmod-ath6kl-usb
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-usb-core, kmod-ath6kl
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath6kl
 Architecture: x86_64
 Installed-Size: 71680
-Filename: kmod-ath6kl-usb_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 21189
-SHA256sum: 9765c0cee49928c4eb06c8369b74ff3c2d7baaf2c9e924adee80382f7e17997f
+Filename: kmod-ath6kl-usb_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 21204
+SHA256sum: 9107531903d61b4e5e0c5c91d07c6d1fea2a61b5e5b402169bee28ed95c79b94
 Description:  This module adds support for wireless adapters based on the
  Atheros IEEE 802.11n AR6004 chipset.
 
 Package: kmod-ath6kl
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath6kl
 Architecture: x86_64
 Installed-Size: 552960
-Filename: kmod-ath6kl_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 167254
-SHA256sum: adb858278d7023e04b4f8ca86121715d4a36d17de55f1b19841bd884aba01297
+Filename: kmod-ath6kl_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 167304
+SHA256sum: 17e84f5bba2e88531f20da752a1cbba68f368a48f9d3e012c1229db21a95d8d3
 Description:  Atheros FullMAC wireless devices (common code for ath6kl_sdio and ath6kl_usb)
 
 Package: kmod-ath9k-common
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath, kmod-random-core
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath9k
 Architecture: x86_64
-Installed-Size: 706560
-Filename: kmod-ath9k-common_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 192968
-SHA256sum: 781cc877ae41ec353baa736f2b988ba499549646eeea290a60de2a0e7da1a87c
+Installed-Size: 747520
+Filename: kmod-ath9k-common_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 210272
+SHA256sum: 26862a408151a70d7287975ce418df2b160472985ece788e86854f58b1c5e19b
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k-htc
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath9k-common, kmod-usb-core, ath9k-htc-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath9k
 Architecture: x86_64
 Installed-Size: 276480
-Filename: kmod-ath9k-htc_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 84529
-SHA256sum: ce41076143bd87de71bad981a91d0231833b25df05a84ba4ac0afd6f25369162
+Filename: kmod-ath9k-htc_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 84542
+SHA256sum: 8a93a1781c61886788ecc1462093f3d9f1a036a55aac8ddb3c1fd2545b9c0307
 Description:  This module adds support for wireless adapters based on
  Atheros USB AR9271 and AR7010 family of chipsets.
 
 Package: kmod-ath9k
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath9k-common
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/ath9k
 Architecture: x86_64
 Installed-Size: 368640
-Filename: kmod-ath9k_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 117206
-SHA256sum: 4faa959e1cd1c0e06053004b90028730ce5e91961fc681f6e308175e2721615b
+Filename: kmod-ath9k_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 117226
+SHA256sum: b976951b48d0f6746c1d0757209b3b55b53a59d48662ceef2fb79aa94ae836eb
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
 Package: kmod-ath
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
-Installed-Size: 92160
-Filename: kmod-ath_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 30082
-SHA256sum: 74da159f56de8e7c1663b51f9c8664dfff0273bce03f7e3a1ab4116d238aaf9c
+Installed-Size: 112640
+Filename: kmod-ath_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 36397
+SHA256sum: 67d651250117cd70f0d8f650eb954275fb2227eacf45ce67611b2eeb19cd48f6
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-atl1
@@ -1519,16 +1520,16 @@ SHA256sum: c94d12adf7673dc2bcb5804d493e162d7335bd944f22ec0fc20eb9d1d0f6f893
 Description:  Kernel modules for AX25 support
 
 Package: kmod-b43
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, kmod-lib-cordic, kmod-ssb, kmod-bcma
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/b43
 Architecture: x86_64
 Installed-Size: 1085440
-Filename: kmod-b43_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 335384
-SHA256sum: 9d5717ec87b9e84b5399a5aecb0059aece2db2725a8eef1c4ae4786c52c484a5
+Filename: kmod-b43_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 335569
+SHA256sum: 31e2df6c70062b7f230581bbfdff733893bea0e753365f107217be05825dbe49
 Description:  Kernel module for Broadcom 43xx wireless support (mac80211 stack) new
 
 Package: kmod-b44
@@ -1716,42 +1717,42 @@ SHA256sum: afed4096c230b12c7957150659dc38a6d9cb62af9718e9268a5b8c1d99037a0d
 Description:  Bridge netfilter support modules
 
 Package: kmod-brcmfmac
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-cfg80211, kmod-brcmutil, kmod-usb-core, brcmfmac-firmware-usb
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
 Architecture: x86_64
-Installed-Size: 829440
-Filename: kmod-brcmfmac_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 267232
-SHA256sum: c33a68d48ff9af98b87fa85ab51f5f20dbb2162b08b1403472f55b76f31bd5c7
+Installed-Size: 839680
+Filename: kmod-brcmfmac_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 267459
+SHA256sum: 63c86eef43ac4b188299e5992ce2b038e7ef09c4d5c42a383a44b7dd6bf30cf5
 Description:  Kernel module for Broadcom IEEE802.11n USB Wireless cards
 
 Package: kmod-brcmsmac
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, kmod-bcma, kmod-lib-cordic, kmod-lib-crc8, kmod-brcmutil
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
 Architecture: x86_64
 Installed-Size: 1013760
-Filename: kmod-brcmsmac_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 286222
-SHA256sum: b76761033695f0d4d248ee7f1b156f72e64df1767b9f78012f113329d5b55ef8
+Filename: kmod-brcmsmac_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 286346
+SHA256sum: c91ee1ddba53c2b146f50a707380d4d6b53480655dd1978f2543e2548ef1fde4
 Description:  Kernel module for Broadcom IEEE802.11n PCIe Wireless cards
 
 Package: kmod-brcmutil
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1)
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/brcm80211
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-brcmutil_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 5854
-SHA256sum: 210b549b04a0f7c3a6e276e1f202b9db76b0858ac3ca6de43069c89fc6d5cc12
+Filename: kmod-brcmutil_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 5861
+SHA256sum: c745c7c8406a83c8ab78eed02e0fd5e60c0cb4df7576f3a612a6835788357c34
 Description:  This module contains some common parts needed by Broadcom Wireless drivers brcmsmac and brcmfmac.
 
 Package: kmod-btmrvl
@@ -2032,16 +2033,16 @@ SHA256sum: cfe6cced42b8e5ca594d50261bbfa95bd204fd653c727e1b4d386631b6767eb8
 Description:  Kernel module for CAN bus support.
 
 Package: kmod-carl9170
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, kmod-ath, kmod-usb-core, kmod-input-core, carl9170-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 276480
-Filename: kmod-carl9170_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 88766
-SHA256sum: b1b0af909c7e334a241723c95484c6a6931f4b1f9ae95815fb869d5fc8420fba
+Filename: kmod-carl9170_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 88870
+SHA256sum: b39646e5a53a8ba8ea79b7ef529ae4f876aa2fcfd6195bfc5c63f18015b0a932
 Description:  Driver for Atheros AR9170 USB sticks
 
 Package: kmod-cc2520
@@ -2084,16 +2085,16 @@ SHA256sum: 41e13f5ee662e1b4fab32eb1b6c6f2dcee8531ef0bead78a3fa6680977e3595a
 Description:  CEC support
 
 Package: kmod-cfg80211
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), iw, iwinfo, wifi-scripts, wireless-regdb
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 1884160
-Filename: kmod-cfg80211_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 413324
-SHA256sum: 88c0f8257e1ee9fcfb6e7ff7c901920152babca1a787ea86e08a303c40d9b17e
+Filename: kmod-cfg80211_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 414308
+SHA256sum: 5b69925aedaa87168598b8d3863f7806ebd66ea3262aa72daac23da2184a7fba
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-chaoskey
@@ -6915,16 +6916,16 @@ SHA256sum: d1117f4f7a19a17c28b83471d2744af0bedaf652935bc23e7671db0c767937c5
 Description:  Kernel module for Intel iTCO Watchdog Timer
 
 Package: kmod-iwlwifi
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, kmod-ptp
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
-Installed-Size: 2048000
-Filename: kmod-iwlwifi_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 650849
-SHA256sum: f164b277cfb83dcd3d365695db625971a5955c672b7e27991cf0617b2ce1cf04
+Installed-Size: 2600960
+Filename: kmod-iwlwifi_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 836066
+SHA256sum: 786694205897a7b25fcca4c1295287ba07f73472a9ea068c6043078f3fd3abda
 Description:  iwlwifi kernel module for
  Intel Wireless WiFi Link 6250AGN Adapter
  Intel 6000 Series Wi-Fi Adapters (6200AGN and 6300AGN)
@@ -7726,29 +7727,29 @@ SHA256sum: 72a795648500ce151241c3ef4eabec119bf6a04f84aff583c85b297a66ab1e2f
 Description:  Parallel port line printer device support
 
 Package: kmod-mac80211-hwsim
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 245760
-Filename: kmod-mac80211-hwsim_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 72303
-SHA256sum: abb5e0d298ae3141ca6c58a77f166952df5df622bb9e20e3d8a03bc67dc7c056
+Filename: kmod-mac80211-hwsim_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 72469
+SHA256sum: abd129b5c66b8d2dacc8f7f87bf2036dcdd400e0dec7486ef6500512d49ec383
 Description:  mac80211 HW simulation device
 
 Package: kmod-mac80211
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-cfg80211, kmod-crypto-cmac, kmod-crypto-ccm, kmod-crypto-gcm, hostapd-common
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
-Installed-Size: 2273280
-Filename: kmod-mac80211_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 596184
-SHA256sum: 39681c450c34510c1686f385d6d621e272ae15bcb6c950562905d7e809637079
+Installed-Size: 2314240
+Filename: kmod-mac80211_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 600432
+SHA256sum: 824e8ad9fd5721134c9384949e0be2b3161f897b2e4556df1759c036bf5341cb
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mac802154
@@ -8323,8 +8324,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 194560
 Filename: kmod-mt76-connac_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 65974
-SHA256sum: 05edd069c176b94fb9c61f07ee88831951d628b3d5d393f5bdaf66d1c4a8d3a2
+Size: 65996
+SHA256sum: 6609989d68ecf8c83f74bf9dc366af8e27056951d9924f6706ab2f34427b8fe6
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -8335,8 +8336,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 256000
 Filename: kmod-mt76-core_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 81705
-SHA256sum: 4f52628b794a9955aa2d001b6c247f20cdbf64e87216288f9351da238a245bdf
+Size: 81844
+SHA256sum: 694b30e183ba979865114f8cecb8fbf1e385adba5b118a513deeedc384ac40fe
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt76-sdio
@@ -8347,8 +8348,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 71680
 Filename: kmod-mt76-sdio_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 25981
-SHA256sum: 27e69811612166319bad3e8c1fae5097e6641ee57bbf81e1376aed3e2564b2c5
+Size: 25986
+SHA256sum: 16f4069360b43b7f11b643fd5398e1cf0cc257474fcf25568a50974e3b6f8bdc
 Description:  MediaTek MT7615/MT79xx SDIO driver common code
 
 Package: kmod-mt76-usb
@@ -8359,21 +8360,21 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 92160
 Filename: kmod-mt76-usb_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 30776
-SHA256sum: f238c8c3abbad0193eb27df04815bfb986abd39fa257fc40b2a82e134e1b6258
+Size: 30778
+SHA256sum: fcbd2e40c09542e9ca859340220074338287f00e3f628c6e499c1db0e47ba7f2
 Description:  MediaTek MT76xx wireless driver USB support
 
 Package: kmod-mt7601u
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, kmod-usb-core, mt7601u-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 296960
-Filename: kmod-mt7601u_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 80637
-SHA256sum: b060a77d3f749c49fff3cad0fc7d845714bcefbbe13e296d60e23bfb81b75a4a
+Filename: kmod-mt7601u_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 80730
+SHA256sum: 29fccf989e845723ee6e9ae066c5701b5b760e50302f6ab65bd8b58c818b01ae
 Description:  MT7601U-based USB dongles Wireless Driver
 
 Package: kmod-mt7603
@@ -8384,8 +8385,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 317440
 Filename: kmod-mt7603_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 131610
-SHA256sum: f50020f26d9c892b12589bf481e81b5cc3384da7b520feb0d91a0c23f18b03a1
+Size: 131739
+SHA256sum: b5a603354bb7aea507f885eade9e03f6150d854fbbab25990b97d6e218b7a9ce
 Description:  MediaTek MT7603 wireless driver
 
 Package: kmod-mt7615-common
@@ -8396,8 +8397,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 286720
 Filename: kmod-mt7615-common_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 90855
-SHA256sum: 5e9f078b430b1e9af149ab6758940be17dc28a3e43b52170b239a2c07d56c540
+Size: 90995
+SHA256sum: 1712348d58b6cee06be3e7f6e4e6d932c72a39f0e0bfeaf8d9dea77898e612c7
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615-firmware
@@ -8420,8 +8421,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 102400
 Filename: kmod-mt7615e_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 34844
-SHA256sum: 6dc8b77aaf6fe7e962b81fdc6b4f17f92d1948c1501e2319b44e245d5c40f787
+Size: 34941
+SHA256sum: e0713673c7b72ee82c0141af32c73f6096d8eb9ab42c2a2f6b68cc845a608727
 Description:  MediaTek MT7615e wireless driver
 
 Package: kmod-mt7622-firmware
@@ -8468,8 +8469,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 81920
 Filename: kmod-mt7663-usb-sdio_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 28231
-SHA256sum: 392d2550db50f8483a4797eb224b71d1aa0beb4c2e3cf6ae27145349e0a9de48
+Size: 28306
+SHA256sum: 187e6b56cdb68e7769a5d6da70ae5137e7336695baead5e25544df1cd5a597b4
 Description:  MediaTek MT7663 USB/SDIO shared code
 
 Package: kmod-mt7663s
@@ -8480,8 +8481,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 92160
 Filename: kmod-mt7663s_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 28755
-SHA256sum: a26b1c4ea3548550643917d9ceb6a4a2a2e90eb43a65024adc4c6f80c4555925
+Size: 28847
+SHA256sum: 4ebef677e463b04f4d336df159b68bfe6c7bd8c6146685abe0cac4c18110523e
 Description:  MediaTek MT7663s wireless driver
 
 Package: kmod-mt7663u
@@ -8492,8 +8493,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 81920
 Filename: kmod-mt7663u_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 28447
-SHA256sum: a2c960370b1c31c588c5bd3c241ef30cf0e8c722b98d179d5db13d69dd247044
+Size: 28512
+SHA256sum: 1c4602dfa433ccdeb2869e4a73fbabea21a98bd77d7e751471fbb9f2c98d4699
 Description:  MediaTek MT7663u wireless driver
 
 Package: kmod-mt76
@@ -8516,8 +8517,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 194560
 Filename: kmod-mt76x0-common_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 82498
-SHA256sum: f8d8262ca8c094cdb8258119592a49750ccc9a139aa885e0766ca003f0180ef3
+Size: 82531
+SHA256sum: 3a8956a900ef14cc8b46b81dc2c82df25b512eea58dc5ac2b18884f7863fcaa6
 Description:  MediaTek MT76x0 wireless driver common code
 
 Package: kmod-mt76x02-common
@@ -8528,8 +8529,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 174080
 Filename: kmod-mt76x02-common_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 57608
-SHA256sum: 0d7f107d9a7a98d5b4cb661d810b6179cc995e99d1c5287bea5f900402d7c7ea
+Size: 57582
+SHA256sum: d78e0057ddf7685c4cd1f7b503538be2e3c341a17919ad8ba8e063507f9a6b36
 Description:  MediaTek MT76x0/MT76x2 wireless driver common code
 
 Package: kmod-mt76x02-usb
@@ -8540,8 +8541,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 71680
 Filename: kmod-mt76x02-usb_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 25241
-SHA256sum: 392acfa76cd07258c1cfd92af5ebee58d8f408fcaa9d67ff659d38e90b8d2e67
+Size: 25263
+SHA256sum: 87e05a9795b4f43839789c4d79ac4b7c75e99fe3ac13ad22476de4a49d0df6fc
 Description:  MediaTek MT76x0/MT76x2 USB wireless driver common code
 
 Package: kmod-mt76x0e
@@ -8552,8 +8553,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 92160
 Filename: kmod-mt76x0e_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 29710
-SHA256sum: 7e948e69c085b13fad10bbd160e81b2b4ca8dbe2cb25ef8fa2580614849019a7
+Size: 29790
+SHA256sum: 4f2699adcec50df27852fa9e15ae1f5c410d6647cc8aba1d7e7bf5db68c917c1
 Description:  MediaTek MT76x0E wireless driver
 
 Package: kmod-mt76x0u
@@ -8564,8 +8565,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 92160
 Filename: kmod-mt76x0u_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 29156
-SHA256sum: 5f37e5bf7dce324d43d6c0b8ebb57c3d3b375365b8ea86b10f6ea536b3c49600
+Size: 29251
+SHA256sum: 25054f4b0a44e094342f895cf078ca78097a263b1c86942fcc430375b3190cb9
 Description:  MediaTek MT76x0U wireless driver
 
 Package: kmod-mt76x2-common
@@ -8576,8 +8577,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 184320
 Filename: kmod-mt76x2-common_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 98842
-SHA256sum: 4a9964689d9622efff85c1901170cded2901256c1c98c96afee26b939d769804
+Size: 98829
+SHA256sum: 399e71f679437ce6eb3d6d65e851a7d547888f8cfede0527aeb27c434b79086e
 Description:  MediaTek MT76x2 wireless driver common code
 
 Package: kmod-mt76x2
@@ -8588,8 +8589,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 112640
 Filename: kmod-mt76x2_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 34597
-SHA256sum: c3f5f6e64402109e34c23ae8b7101374f8677c21aa9898b2178175e56fb00f98
+Size: 34766
+SHA256sum: 55ce93c0655d2fea6f6704cf9fae6b30c3550004018aa598036e40c01d92c655
 Description:  MediaTek MT76x2 wireless driver
 
 Package: kmod-mt76x2u
@@ -8600,8 +8601,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 112640
 Filename: kmod-mt76x2u_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 34182
-SHA256sum: df73c952fb06cc9a8617914b95d847a707b0da2ecf81ffe6a21f74ef331661bb
+Size: 34325
+SHA256sum: dddabca831400846c6e52b514d846a4a7270fe72cd4e7c4e8cabe4749e0c77b0
 Description:  MediaTek MT76x2U wireless driver
 
 Package: kmod-mt7915-firmware
@@ -8624,8 +8625,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 399360
 Filename: kmod-mt7915e_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 123055
-SHA256sum: a8764c4e6e645560a45679c53f1229f7e056fd36103d9d07d546052037fd6e72
+Size: 123151
+SHA256sum: 8ad055e5d9e28e701d26c85a64a9098f7fcf699c689c4d86fec92b8e90433470
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7916-firmware
@@ -8648,8 +8649,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 296960
 Filename: kmod-mt7921-common_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 74956
-SHA256sum: a9df739ba3fa0c8fca03ca64ade2d6449b84af27b262d01b307e51e9f2d1d46f
+Size: 75017
+SHA256sum: 00a4a4ed081de0260be19af0879744e803a7051c57e0765603a6b808860e5ed0
 Description:  MediaTek MT7921 wireless driver common code
 
 Package: kmod-mt7921-firmware
@@ -8672,8 +8673,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 102400
 Filename: kmod-mt7921e_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 32980
-SHA256sum: 83de38d5f40158497bb44a89fd2cfe05e12d1125784a3cb0749b78f5d9ebda87
+Size: 33214
+SHA256sum: 211422564255b134b42b1a31a4a5a4f56abec67919bad78fa61ce59217570afd
 Description:  MediaTek MT7921e wireless driver
 
 Package: kmod-mt7921s
@@ -8684,8 +8685,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 102400
 Filename: kmod-mt7921s_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 31199
-SHA256sum: 077044db861c21be895b39f3a27d81c6e2262a2e0450791f9dc65ade2c53b686
+Size: 31277
+SHA256sum: e220a9599aa21bc7002b819286af694cfb4ee6357b62dd7c37e60ee09b5d7dce
 Description:  MediaTek MT7921S wireless driver
 
 Package: kmod-mt7921u
@@ -8694,10 +8695,10 @@ Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, k
 License: BSD-3-Clause-Clear
 Section: kernel
 Architecture: x86_64
-Installed-Size: 81920
+Installed-Size: 92160
 Filename: kmod-mt7921u_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 28407
-SHA256sum: e5b6b5bca9d53a24e52b92eb2e4672f04d1b702b45c9143227226f23b5256c0f
+Size: 28487
+SHA256sum: f2bb36014d05daf7aab57e0fd13bcc2fd23ffa9f70a60576ef379fcc4d0d1180
 Description:  MediaTek MT7921U wireless driver
 
 Package: kmod-mt7922-firmware
@@ -8720,8 +8721,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 296960
 Filename: kmod-mt7925-common_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 94066
-SHA256sum: 9223774d97a712aa0053ebf77cc431b29e4012440c2b3bb327b86cc892c42b31
+Size: 94208
+SHA256sum: fe7944280b9c36718d6c66c77f73544e0b3d0ea3711561d1797e4fc54eb8a8cd
 Description:  MediaTek MT7925 wireless driver common code
 
 Package: kmod-mt7925-firmware
@@ -8744,8 +8745,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 102400
 Filename: kmod-mt7925e_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 33454
-SHA256sum: d7154e6a1fc1fe0c3f60a9ab7a5a8ab64fabe6f40cbb3283242affb4dd5aad55
+Size: 33660
+SHA256sum: eb78f9b782580cfcc0e538843931922d17415930f730bd008a13f1bbf5c26ccd
 Description:  MediaTek MT7925e wireless driver
 
 Package: kmod-mt7925u
@@ -8756,8 +8757,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 92160
 Filename: kmod-mt7925u_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 28610
-SHA256sum: 7612bc13e3441eb79ce8840c21fd4e3b64061f92a45ab229770f0c3113c26b07
+Size: 28673
+SHA256sum: 235ab9e6fa159db9fdd9a7f73793841df65c7fdd39959e4272029e664f424a5b
 Description:  MediaTek MT7925U wireless driver
 
 Package: kmod-mt792x-common
@@ -8768,8 +8769,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 153600
 Filename: kmod-mt792x-common_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 50566
-SHA256sum: 33024e8d3b26e7e63c5b4d43ba54cdd6de954169653e7eab17711ba1f3520de0
+Size: 50642
+SHA256sum: 861ba14c38baa3d53859af94b29d17a54a2481f80d53398756dee808cb94a7bd
 Description:  MediaTek MT792x wireless driver common code
 
 Package: kmod-mt792x-usb
@@ -8780,8 +8781,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 61440
 Filename: kmod-mt792x-usb_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 21454
-SHA256sum: ff4b43e843e353283f7b026172f7a0067aaf646954c4718f13675e97f3ea6fa3
+Size: 21446
+SHA256sum: 72cd88bb1ce8460ded9cbbf847849f365bd62124d5909a480d441977201fbcea
 Description:  MediaTek MT792x wireless driver USB code
 
 Package: kmod-mt7992-23-firmware
@@ -8852,8 +8853,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 409600
 Filename: kmod-mt7996e_6.18.14.2026.01.28~b2fe7f14-r1_x86_64.ipk
-Size: 136715
-SHA256sum: 58d135cb7d0418b713a4b2f9912bfc6e8884b4088a2b5da78716e9ed0929b968
+Size: 136873
+SHA256sum: f993f4eae7e04ac4d55957925828385096823c45bcc311b21935409b43fe34d2
 Description:  MediaTek MT7996E wireless driver
 
 Package: kmod-mtdoops
@@ -8948,42 +8949,42 @@ SHA256sum: 1a2f3da9636882f8a588dd3a464c6bc395dde1b9df7b31991da154b737d73d82
 Description:  Kernel support for the Marvell SAS SCSI adapters
 
 Package: kmod-mwifiex-pcie
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, mwifiex-pcie-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/mwifiex
 Architecture: x86_64
 Installed-Size: 819200
-Filename: kmod-mwifiex-pcie_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 242286
-SHA256sum: e23669ce03c49e2070a9907faaec4353ada0da87947e437b9734dd99c28298ce
+Filename: kmod-mwifiex-pcie_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 242352
+SHA256sum: 8c6856c4472d7fed84544abbcec06574c6fe60c5ae2958e6dffd0f8ba12ab4ac
 Description:  Kernel modules for Marvell 802.11n/802.11ac PCIe Wireless cards
 
 Package: kmod-mwifiex-sdio
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mmc, kmod-mac80211, mwifiex-sdio-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/mwifiex
 Architecture: x86_64
 Installed-Size: 808960
-Filename: kmod-mwifiex-sdio_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 240106
-SHA256sum: 147b9e2beec48e2bc433b3a6adbb156925b1d260bad0e98d3af19569b2ccb5c6
+Filename: kmod-mwifiex-sdio_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 240167
+SHA256sum: a1e03f6b5d76d27edf09e9e191d780b2b71e2f1e8e270f1054eca53be7c04353
 Description:  Kernel modules for Marvell 802.11n/802.11ac SDIO Wireless cards
 
 Package: kmod-mwl8k
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, mwl8k-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/mwl8k
 Architecture: x86_64
 Installed-Size: 194560
-Filename: kmod-mwl8k_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 61069
-SHA256sum: 0477ad8b0260444877ec3df398a5612cc59da613e2ad1664d8fe5307ff046df2
+Filename: kmod-mwl8k_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 61215
+SHA256sum: 7aa078e07c8fbf7febde6fe5f9b1e67c72109862d6a992abc864e969fd2b8f35
 Description:  Kernel modules for Marvell TOPDOG 802.11 Wireless cards
 
 Package: kmod-nat46
@@ -10124,16 +10125,16 @@ Description:  This module enhances the performance of the OpenVPN userspace soft
  by offloading the data channel processing to kernelspace.
 
 Package: kmod-owl-loader
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-ath9k
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 20480
-Filename: kmod-owl-loader_6.18.14.6.18.10-r1_x86_64.ipk
+Filename: kmod-owl-loader_6.18.14.6.18.14-r1_x86_64.ipk
 Size: 3937
-SHA256sum: 263cab342c00eb0ac983a2b0a248f49df709440626a3669d696db5f3b2d2878b
+SHA256sum: 8723e8e004a924d114bf44a54e265535fdb1863df3133dda4e213c7a5cb0bc3c
 Description:  Kernel module that helps to initialize certain Qualcomm
  Atheros' PCI(e) Wifi chips, which have the init data
  (which contains the PCI device ID for example) stored
@@ -10796,16 +10797,16 @@ Description:  The IEEE 1588 standard defines a method to precisely
  synchronize distributed clocks over Ethernet networks.
 
 Package: kmod-qcom-qmi-helpers
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1)
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 40960
-Filename: kmod-qcom-qmi-helpers_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 10859
-SHA256sum: 849356f627fb50aa519859c623bd193b7a5fac042eadbf1c00e71676b1dcccde
+Filename: kmod-qcom-qmi-helpers_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 10861
+SHA256sum: c7de9067c3ecd1e152cff15fd2ea038a7f9c568159187e286ea21e419270c940
 Description:  Qualcomm QMI backports helpers
 
 Package: kmod-qlcnic
@@ -11043,172 +11044,172 @@ Description:  Kernel support for RMNET module which is used for handling data in
  path. RMNET devices can be attached to any IP mode physical device.
 
 Package: kmod-rsi91x-sdio
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, kmod-mmc, kmod-rsi91x, rs9113-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 92160
-Filename: kmod-rsi91x-sdio_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 26125
-SHA256sum: d813261931da5b4cb95701bf73f486f76ac3a4d84524fcc34d4f69d6ec8a7b44
+Filename: kmod-rsi91x-sdio_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 26156
+SHA256sum: a72dc32364130d5e470385d679d3d8f1310fd2bcaa35cac4f1a45215ca11031d
 Description:  Redpine Signals SDIO bus support
 
 Package: kmod-rsi91x-usb
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-usb-core, kmod-mac80211, kmod-rsi91x, rs9113-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 61440
-Filename: kmod-rsi91x-usb_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 20543
-SHA256sum: 4e9cfe23c5fb7d457843501fb3f20e74fbeb1bb9fcfd2fb7e755c40e080548c1
+Filename: kmod-rsi91x-usb_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 20549
+SHA256sum: 104f3e72cb1242a40f7bff7b77ec94b93e7dfdbb430360bcf7d731a8689c6587
 Description:  Redpine Signals USB bus support
 
 Package: kmod-rsi91x
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, rs9113-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 204800
-Filename: kmod-rsi91x_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 65500
-SHA256sum: 55060d97a651e6bf20320c2a6c24d54a99b371ba6200ae088040fc0e2bea809c
+Filename: kmod-rsi91x_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 65613
+SHA256sum: 0d4ca1d564dc565fe9b25a21e9afb75f46650d0390d26cb06acf19ad667de566
 Description:  Redpine Signals Inc 91x WLAN driver support
 
 Package: kmod-rt2800-lib
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2x00-lib, kmod-lib-crc-ccitt
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 573440
-Filename: kmod-rt2800-lib_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 110704
-SHA256sum: cd1080437164f42906f6429b5b71d582c52568354d5e420bdad1a0b3eecdb953
+Filename: kmod-rt2800-lib_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 110889
+SHA256sum: 22a3d338728da3a5080309a7715e478626d172bb978951f6d52117867fd42f7b
 Description:  Ralink Drivers for RT2x00 cards (rt2800 LIB)
 
 Package: kmod-rt2800-mmio
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2800-lib, kmod-rt2x00-mmio
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
-Installed-Size: 81920
-Filename: kmod-rt2800-mmio_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 28590
-SHA256sum: caacbba987431e0d8a1c0eb48a1bc2f22db0c7e6659dfb6a06c2fbbf502542f0
+Installed-Size: 92160
+Filename: kmod-rt2800-mmio_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 28702
+SHA256sum: 4d8e2b3241bbcaedf7aa5df4d0c7f07651754004bb37ee5c1c8c8a5a4229be90
 Description:  Ralink Drivers for RT2x00 cards (RT28xx/RT3xxx MMIO)
 
 Package: kmod-rt2800-pci
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2x00-pci, kmod-rt2800-lib, kmod-rt2800-mmio, kmod-eeprom-93cx6, rt2800-pci-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 81920
-Filename: kmod-rt2800-pci_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 26016
-SHA256sum: caedf6092332ede4e0ec08ec55c6448663c5d83c884b8e5236ef154e5651181b
+Filename: kmod-rt2800-pci_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 26167
+SHA256sum: 44b43219bd0f179e024807f13747db70933726e3763b20e82bcd8f867eba686e
 Description:  Ralink Drivers for RT2x00 cards (RT2860 PCI)
 
 Package: kmod-rt2800-usb
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2x00-usb, kmod-rt2800-lib, kmod-lib-crc-ccitt, rt2800-usb-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 122880
-Filename: kmod-rt2800-usb_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 33614
-SHA256sum: 99d862a66b8116cd5258d2da7e0b036cd01004a761234b824f122f97cd6174de
+Filename: kmod-rt2800-usb_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 33768
+SHA256sum: 36685e9805ebaa6b8d032ac6d2d351b17dfd2f748659cf2ea7c606e9d4554cae
 Description:  Ralink Drivers for RT2x00 cards (RT2870 USB)
 
 Package: kmod-rt2x00-lib
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 174080
-Filename: kmod-rt2x00-lib_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 55969
-SHA256sum: fbc3301702b6c72bc028acd444a918a72899d15b76537e6c196d46b83787541d
+Filename: kmod-rt2x00-lib_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 56320
+SHA256sum: 47e2144f6c853750491acd80f0af8afb00d5e41406b080bd4b587f9d7e2c7c5e
 Description:  Ralink Drivers for RT2x00 cards (LIB)
 
 Package: kmod-rt2x00-mmio
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2x00-lib
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 71680
-Filename: kmod-rt2x00-mmio_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 23999
-SHA256sum: e49928d3edb6e62c8b56c44cff8180d18a764c1e364f74edcbcd66306e77f076
+Filename: kmod-rt2x00-mmio_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 24135
+SHA256sum: 817fe889de2e19aee986374366d1b76b71fd578407c5f84e3737b3445de543ec
 Description:  Ralink Drivers for RT2x00 cards (MMIO)
 
 Package: kmod-rt2x00-pci
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2x00-mmio, kmod-rt2x00-lib
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 71680
-Filename: kmod-rt2x00-pci_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 23262
-SHA256sum: 31a5ff152850bc995a96b6a4022ca8c97b51546d51fb205efdad1be47e58e2dc
+Filename: kmod-rt2x00-pci_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 23362
+SHA256sum: e015c6d648e9529aa1708088c9e780747a089efebde37ad99392031608343158
 Description:  Ralink Drivers for RT2x00 cards (PCI)
 
 Package: kmod-rt2x00-usb
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2x00-lib, kmod-usb-core
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 92160
-Filename: kmod-rt2x00-usb_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 30133
-SHA256sum: 446d5a3b619dc49b47eb2a92db820288395bca84079acbc2e643899c883e049f
+Filename: kmod-rt2x00-usb_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 30265
+SHA256sum: f2aa8e648d113eb2b089a1f67aab048defefc307d36d0af9eb4fd871ca4c6199
 Description:  Ralink Drivers for RT2x00 cards (USB)
 
 Package: kmod-rt61-pci
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2x00-pci, kmod-eeprom-93cx6, kmod-lib-crc-itu-t, rt61-pci-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 122880
-Filename: kmod-rt61-pci_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 40250
-SHA256sum: 130f4ef76f3109f86ad71ae3175a1573a0078874a9ee97d1c3a6f49e83b6afd8
+Filename: kmod-rt61-pci_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 40405
+SHA256sum: 97f3b1b4c9ab3bec3e037adab0f4df1bed57fee6b9ed1313b7d1a9d405c1e39f
 Description:  Ralink Drivers for RT2x00 cards (RT2x61 PCI)
 
 Package: kmod-rt73-usb
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rt2x00-usb, kmod-lib-crc-itu-t, rt73-usb-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 133120
-Filename: kmod-rt73-usb_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 38722
-SHA256sum: 377bdd3b64467379bfa7a134bd2b9edeb5fe0971f217657909e55ffd8ab3e7f7
+Filename: kmod-rt73-usb_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 38933
+SHA256sum: d11e542e5b672f7dbd61e9926c5b2ba13fd4545c037e9fa7284a8902a951772b
 Description:  Ralink Drivers for RT2x00 cards (RT73 USB)
 
 Package: kmod-rtc-ds1307
@@ -11396,148 +11397,148 @@ SHA256sum: 578b55f597935317de09968c66878925869ec2f106d0d93c3617cd79eec9bfa0
 Description:  Kernel module for Xicor Intersil X1205 I2C RTC chip
 
 Package: kmod-rtl8192c-common
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 133120
-Filename: kmod-rtl8192c-common_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 46730
-SHA256sum: 6a39fca4e9a71294ea9927c362e28c1ce1c2dd4dce59ecaa78e80dce9e7aae87
+Filename: kmod-rtl8192c-common_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 46734
+SHA256sum: b348f1a962418b92a3ec074e3c15eb5b18bbd7d8409d8cb7dee046c525e2a515
 Description:  Realtek RTL8192CE/RTL8192CU common support module
 
 Package: kmod-rtl8192ce
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi-pci, kmod-rtl8192c-common, rtl8192ce-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 174080
-Filename: kmod-rtl8192ce_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 57824
-SHA256sum: f73f66939ad56dee1c58d548895ca984eac6768e678a0448e57c7ada47bcde0d
+Filename: kmod-rtl8192ce_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 57809
+SHA256sum: b53cfd70c07e9ab609a4c7c708ab90c9f565fe1769ec87e97f4b40d91e63e843
 Description:  Realtek RTL8192CE/RTL8188CE support
 
 Package: kmod-rtl8192cu
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi-usb, kmod-rtl8192c-common, rtl8192cu-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 194560
-Filename: kmod-rtl8192cu_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 60871
-SHA256sum: 493ac41dff5a78a44029bd4c44196b5c51d739852f67b9e76bd47e5cd8e0f98f
+Filename: kmod-rtl8192cu_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 60881
+SHA256sum: b1abc72c68c654ebbab6b901e261e9428296cfab6bb7b17dd93ae0212619b76c
 Description:  Realtek RTL8192CU/RTL8188CU support
 
 Package: kmod-rtl8192d-common
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 153600
-Filename: kmod-rtl8192d-common_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 53602
-SHA256sum: 1ce7856f1d1353606c739df50b69889d9929c4fa1d3a7d50e5149742e79dca7c
+Filename: kmod-rtl8192d-common_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 53674
+SHA256sum: 517c83465b1b94e86a39665da71c9a060854929c8ec8e69b1678d2e670a8353b
 Description:  Realtek RTL8192DE/RTL8192DU common support module
 
 Package: kmod-rtl8192de
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi-pci, kmod-rtl8192d-common, rtl8192de-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 184320
-Filename: kmod-rtl8192de_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 58515
-SHA256sum: 6ca31ef0acfe28e9eca3fbfa6c547f59d476999d873a7bd4175681bbf57b3a30
+Filename: kmod-rtl8192de_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 58529
+SHA256sum: 60ca05eb0e7efe7cb4f36e6b0587d50bace0897f3505ab90110383e806fe2878
 Description:  Realtek RTL8192DE/RTL8188DE support
 
 Package: kmod-rtl8192du
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi-usb, kmod-rtl8192d-common, rtl8192du-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 184320
-Filename: kmod-rtl8192du_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 56863
-SHA256sum: cbe81330d70900a25bf7d99bc114e8c9bbd4e90cace034ea6d4f54361bfed55d
+Filename: kmod-rtl8192du_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 56875
+SHA256sum: 2fa6f0fb40d2ff6e1baca9ac74ea125546348bcc4c079a33aa9bcdcda0cfe4eb
 Description:  Realtek RTL8192DU support
 
 Package: kmod-rtl8192se
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi-pci, rtl8192se-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 194560
-Filename: kmod-rtl8192se_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 65764
-SHA256sum: 0074eacef6cc5fb703ba5e9dce306966374dbd59c79e22f73b1a4bc49c07aadc
+Filename: kmod-rtl8192se_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 65770
+SHA256sum: 800f144d0442eaf870c2f85ee6c843cdc8312b4ff4ff927148da60f375604b8f
 Description:  Realtek RTL8192SE/RTL8191SE support
 
 Package: kmod-rtl8723-common
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 92160
-Filename: kmod-rtl8723-common_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 31159
-SHA256sum: 2a9cff6945517a94488957d5aba7377227324f2ff4fe85301f42b29b6f5515ac
+Filename: kmod-rtl8723-common_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 31174
+SHA256sum: c1d18cef7cc8a4461ee39307826836deaf5bb842557b006441ef8c705840d630
 Description:  Realtek RTL8723AE/RTL8723BE common support module
 
 Package: kmod-rtl8723be
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi-btcoexist, kmod-rtlwifi-pci, kmod-rtl8723-common, rtl8723be-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 235520
-Filename: kmod-rtl8723be_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 75507
-SHA256sum: 28ecc0dbf400c4a8e6d5e7b412a3eb368e0bfcc7079f87d2b59865a540546569
+Filename: kmod-rtl8723be_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 75480
+SHA256sum: 373da6678c9a47b25834b73cd7ab2291ff261490bb50b501d962f0e91bec0f3d
 Description:  Realtek RTL8723AE/RTL8723BE support
 
 Package: kmod-rtl8723bs
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mmc, kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 1085440
-Filename: kmod-rtl8723bs_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 309656
-SHA256sum: 060b271593912ba3f9b964577405271d665f8c005f08aa1e4d4bc1d1448e2cb7
+Filename: kmod-rtl8723bs_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 309671
+SHA256sum: ec21401df3cfde877fce61366cef6242376e1b5db1ad24684c12c3b4222ee9a4
 Description:  This option enables support for RTL8723BS SDIO drivers, such as the wifi found
  on the 1st gen Intel Compute Stick, the CHIP and many other Intel Atom and ARM
  based devices.
 
 Package: kmod-rtl8821ae
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi-btcoexist, kmod-rtlwifi-pci, rtl8821ae-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 573440
-Filename: kmod-rtl8821ae_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 110501
-SHA256sum: 07d628f080ba940a5db81f10a01ac5dafb3207ed733a070958baa39c06441dc2
+Filename: kmod-rtl8821ae_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 110522
+SHA256sum: 143c7df7ac1e32b5286ce89ebde3827d5e75f6f309d5f5a920670ea4654eeca0
 Description:  Realtek RTL8821AE support
 
 Package: kmod-rtl8822cs
@@ -11548,21 +11549,33 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 4300800
 Filename: kmod-rtl8822cs_6.18.14.5.15.8.3-r17_x86_64.ipk
-Size: 1150279
-SHA256sum: 3b3d605a710207400e92227b948877e87a32d8a2393e594e9b3fd029bca0f036
+Size: 1150700
+SHA256sum: a782d5dc1efe91745018da3e9c830d70275f040797045c92810cab2c1a00dc55
 Description:  Realtek RTL8822CS SDIO WiFi support (High Performance)
 
+Package: kmod-rtl8852au
+Version: 6.18.14.1.15.0.1-r1
+Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-cfg80211
+License: GPLv2
+Section: kernel
+Architecture: x86_64
+Installed-Size: 7116800
+Filename: kmod-rtl8852au_6.18.14.1.15.0.1-r1_x86_64.ipk
+Size: 2282501
+SHA256sum: f2bbbfecb8ae53b2237ce8144f367eed4af4478c3d97ff7fcedfce83677c2f4c
+Description:  Realtek RTL8852AU / RTL8832AU support (out-of-tree)
+
 Package: kmod-rtl8xxxu
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-usb-core, kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 563200
-Filename: kmod-rtl8xxxu_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 135710
-SHA256sum: 1abef7f4d169a012fa696ed1dc9a7dfd8423980b99789f5651a2528acd7c8e0c
+Filename: kmod-rtl8xxxu_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 136011
+SHA256sum: aca710c1af2407a0f72702e424e3a60a80796e111c69be4085b5b70b61f7cb1f
 Description:  This is an alternative driver for various Realtek RTL8XXX
  parts written to utilize the Linux mac80211 stack.
  The driver is known to work with a number of RTL8723AU,
@@ -11586,471 +11599,510 @@ Description:  This is an alternative driver for various Realtek RTL8XXX
  Please report your results!
 
 Package: kmod-rtlwifi-btcoexist
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 491520
-Filename: kmod-rtlwifi-btcoexist_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 106702
-SHA256sum: 232ff8370b6049e55a9a8b498178d23d88933035b678251adb22a5e0169199ee
+Filename: kmod-rtlwifi-btcoexist_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 106851
+SHA256sum: 4c763c133e7ad4e9ae09fe98d768f9253e34cb08a89cf6bd3d0528f4c9cefb31
 Description:  Realtek BT coexist support
 
 Package: kmod-rtlwifi-pci
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 143360
-Filename: kmod-rtlwifi-pci_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 49710
-SHA256sum: e4b04160cf4663c64cea718f54460392d314fd01664364bbda4fad2feaf63254
+Filename: kmod-rtlwifi-pci_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 50218
+SHA256sum: 724d8223420e717b50ad4cc899e92ba132bc67aab14a81f673623ef59d27baff
 Description:  Realtek common driver part (PCI support)
 
 Package: kmod-rtlwifi-usb
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-usb-core, kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 122880
-Filename: kmod-rtlwifi-usb_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 40726
-SHA256sum: a9a45cc57902929c30378500f8e2897aa6663a5f26b16e85d58e89c04b9627d9
+Filename: kmod-rtlwifi-usb_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 41248
+SHA256sum: 6aec31913cd9d3cfe6e0a9dd82351fdf0211c559e53b27f0970c70673f34f781
 Description:  Realtek common driver part (USB support)
 
 Package: kmod-rtlwifi
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 256000
-Filename: kmod-rtlwifi_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 86096
-SHA256sum: 0c7507abf8b3f7c91c5e1b7dab0a5ba8a5691b27146f076eafc1938a347b8788
+Filename: kmod-rtlwifi_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 86190
+SHA256sum: e9994a305335b32e60cf59221eae652e2d09252a5d70f1ed59b89d3183b85b85
 Description:  Realtek common driver part
 
 Package: kmod-rtw88-8723d
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-8723x, rtl8723de-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 112640
-Filename: kmod-rtw88-8723d_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 36754
-SHA256sum: 67a04b5d1efa640ca3ee62bdb97de8a8e066b64e64b89c7ad69eca69613cc8d3
+Filename: kmod-rtw88-8723d_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 36764
+SHA256sum: 1880896bdea755f8bd9bfaf098618605de8f10279eeea3705aeda063ed55f4ac
 Description:  Realtek RTL8723D family support
 
 Package: kmod-rtw88-8723de
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-pci, kmod-rtw88-8723d
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8723de_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8527
-SHA256sum: 6cf79beb4f3c04331a936ec0c7db868fc67cfed0ea3391a8a834ab741de8c6ca
+Filename: kmod-rtw88-8723de_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8539
+SHA256sum: f86cec4cfad1b7db7f6437b3a9d93030a25b71df234239a170b0b3b1e466b4ff
 Description:  Realtek RTL8723DE support
 
 Package: kmod-rtw88-8723ds
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-sdio, kmod-rtw88-8723d
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8723ds_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8450
-SHA256sum: 3f8a02b481d8b2fbb70276bf541a1883ed95b2d1e339a0e5117e307602f36c05
+Filename: kmod-rtw88-8723ds_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8455
+SHA256sum: 8a16c2774d86ce10bb7e3e2729e068fea942fa853234a7629c068c926d1e0b1b
 Description:  Realtek RTL8723DS support
 
 Package: kmod-rtw88-8723du
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-usb, kmod-rtw88-8723d
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8723du_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8585
-SHA256sum: d8bd3721a7a778ada97bee5e7b9b76f25da2a101c491bd305a3f829aba5b67b3
+Filename: kmod-rtw88-8723du_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8602
+SHA256sum: 7bed530a2372c3f3bc1163dd05e4a58997a5535a17f5b7e46602114935f54dff
 Description:  Realtek RTL8723DU support
 
 Package: kmod-rtw88-8723x
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 81920
-Filename: kmod-rtw88-8723x_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 28791
-SHA256sum: fd28b73ec5f18167b12d947874fe2b446133eee76b727bedf24884eec7a41d1d
+Filename: kmod-rtw88-8723x_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 28822
+SHA256sum: f33adaba7f69c26549abc9b8bba533037a2141e1b69488b3d8dc7dae0c85e324
 Description:  Realtek RTL8723x family support
 
 Package: kmod-rtw88-8812a
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-88xxa
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 112640
-Filename: kmod-rtw88-8812a_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 35500
-SHA256sum: 28593fd5f5f850c266d1f73d1603716286dfc23f30ace8846b87b91c27d92b78
+Filename: kmod-rtw88-8812a_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 35477
+SHA256sum: 8a6e7f8bb333ad73e2421443ba4f5d5b01f8a66089f7628ac213b7270dbdb198
 Description:  Realtek RTL8812A family support
 
 Package: kmod-rtw88-8812au
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-8812a, rtl8812a-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8812au_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 9065
-SHA256sum: 6d46cb257a5bb9569b596d2db17f53cbf9f1e44f6cc62e84fc3a5073ecdf088e
+Filename: kmod-rtw88-8812au_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 9066
+SHA256sum: 0c1ccf95cf497b21c6c4e496876c7b6cefa7eeeb5a8f3d63a7c76727210ae3bf
 Description:  Realtek RTL8812AU support
 
+Package: kmod-rtw88-8814a
+Version: 6.18.14.6.18.14-r1
+Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88
+License: GPL-2.0-only
+Section: kernel
+URL: https://wireless.wiki.kernel.org/
+Architecture: x86_64
+Installed-Size: 317440
+Filename: kmod-rtw88-8814a_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 63731
+SHA256sum: c063ff420c64908687097636793ffedc8e274d9b644ddeb7c83ba9c587ac6050
+Description:  Realtek RTL8814A family support
+
+Package: kmod-rtw88-8814ae
+Version: 6.18.14.6.18.14-r1
+Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-8814a, kmod-rtw88-pci, rtl8814a-firmware
+License: GPL-2.0-only
+Section: kernel
+URL: https://wireless.wiki.kernel.org/
+Architecture: x86_64
+Installed-Size: 30720
+Filename: kmod-rtw88-8814ae_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8526
+SHA256sum: b6fc8bb5aff4e66137280e9ed3e807f7357378787275187769bcbead82b57de8
+Description:  Realtek RTL8814AE support
+
+Package: kmod-rtw88-8814au
+Version: 6.18.14.6.18.14-r1
+Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-8814a, kmod-rtw88-usb, rtl8814a-firmware
+License: GPL-2.0-only
+Section: kernel
+URL: https://wireless.wiki.kernel.org/
+Architecture: x86_64
+Installed-Size: 30720
+Filename: kmod-rtw88-8814au_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8758
+SHA256sum: 6d46ff0dea30154fe955f22112ea4ee654c8ea3308de6a4edf449608fea82d02
+Description:  Realtek RTL8814AU support
+
 Package: kmod-rtw88-8821a
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-88xxa
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 102400
-Filename: kmod-rtw88-8821a_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 33630
-SHA256sum: a1fd8854a5a085857485e0634a177017d2804779de79d91d0b4c999501f5f99b
+Filename: kmod-rtw88-8821a_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 33635
+SHA256sum: 1062d371634029599e60cb510f73280136ad131e609d087f4e6668389cf7c0f1
 Description:  Realtek RTL8821A family support
 
 Package: kmod-rtw88-8821au
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-8821a, rtl8821a-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8821au_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8915
-SHA256sum: 3220f7c2ebefe48fde12cb7adaa52aecccdf37a6b9fc37ed0f8f3f103b212884
+Filename: kmod-rtw88-8821au_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8905
+SHA256sum: a88538fb0c41d98295377ee8e7256cabff749c2c49f0c8910fdaa61f138adb3c
 Description:  Realtek RTL8821AU support
 
 Package: kmod-rtw88-8821c
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88, rtl8821ce-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 163840
-Filename: kmod-rtw88-8821c_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 45986
-SHA256sum: dd50fa1db8029b75321170327d3fa371beade36fad96f2175dfe1f0b5c1e2772
+Filename: kmod-rtw88-8821c_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 46057
+SHA256sum: 3891593364d88b7d082250023289a915c86bab8da7f06a9c6ed46ed64a87507d
 Description:  Realtek RTL8821C family support
 
 Package: kmod-rtw88-8821ce
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-pci, kmod-rtw88-8821c
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8821ce_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8558
-SHA256sum: 487c502ffed526b9e6e2e064428bd3c2a38cf8e43497971599d753a4e79b6daf
+Filename: kmod-rtw88-8821ce_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8560
+SHA256sum: 539aca129a64badd17f1249bc49b33150c12674d436eaeef92946879f0d56f41
 Description:  Realtek RTL8821CE support
 
 Package: kmod-rtw88-8821cu
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-usb, kmod-rtw88-8821c
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8821cu_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8762
-SHA256sum: 31aac0a6580c14bd6d2a16b22e56329168bbc6753e71d8d938e61517b0409e87
+Filename: kmod-rtw88-8821cu_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8763
+SHA256sum: 46a724fb969ec79e45300336798f7f97a8e8599dc50f4991b75729eb72b74f1a
 Description:  Realtek RTL8821CU support
 
 Package: kmod-rtw88-8822b
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88, rtl8822be-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 296960
-Filename: kmod-rtw88-8822b_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 58063
-SHA256sum: 22422d65807bb33916c8262091e5ceb0ec034511319356847ad9ce441b37c27f
+Filename: kmod-rtw88-8822b_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 58044
+SHA256sum: 86c7da7a0f348490007c68476a968b4e2b2acc34db11368c7208f5c2cfc37da9
 Description:  Realtek RTL8822B family support
 
 Package: kmod-rtw88-8822be
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-pci, kmod-rtw88-8822b
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8822be_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8523
-SHA256sum: c836d1329f99b527c82686177e85bc2a2dd43da8dbddbbcdfc9ea56f15090ead
+Filename: kmod-rtw88-8822be_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8545
+SHA256sum: 19003d5e5939e07c19edd67df06faa0ca0c2c72618daff91ec0c64239aad5235
 Description:  Realtek RTL8822BE support
 
 Package: kmod-rtw88-8822bu
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-usb, kmod-rtw88-8822b
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8822bu_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 9075
-SHA256sum: 3471d190eea5708911b022d04735ca47db37b781d6b4dad31ce3db03bc551ce8
+Filename: kmod-rtw88-8822bu_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 9088
+SHA256sum: ab875ed3924ab2819f9b6793e7fe4df4b276678039aeb99f5bed8bdb4780ca75
 Description:  Realtek RTL8822BU support
 
 Package: kmod-rtw88-8822c
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88, rtl8822ce-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 552960
-Filename: kmod-rtw88-8822c_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 78610
-SHA256sum: 43e1a056bb6729f4c120816485acdbb340b7ba092264e7d648238326740a4635
+Filename: kmod-rtw88-8822c_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 78542
+SHA256sum: a35eaf93e9c1ae7555da81a373ff0a6b0076deb030fde2e4ddb84221afc7b6e0
 Description:  Realtek RTL8822C family support
 
 Package: kmod-rtw88-8822ce
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-pci, kmod-rtw88-8822c
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8822ce_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8555
-SHA256sum: 42473ceb59b611cd6480544e7e86c521084d231611e457ad4ae9285dc96c9c73
+Filename: kmod-rtw88-8822ce_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8562
+SHA256sum: 24704aca406c734597e021a816b892059cb491d400a18f325579e2d0719d7339
 Description:  Realtek RTL8822CE support
 
 Package: kmod-rtw88-8822cs
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-sdio, kmod-rtw88-8822c
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8822cs_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8437
-SHA256sum: ce430c3f55172ad29d2a314f41324ec562e5bdec3efb85ce3708308de2bf4bec
+Filename: kmod-rtw88-8822cs_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8456
+SHA256sum: 5d36b45aab7d0edd4cb5d7b1c65ef7e85c2e2065027fad3fe44226383076e0ea
 Description:  Realtek RTL8822CS support
 
 Package: kmod-rtw88-8822cu
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-usb, kmod-rtw88-8822c
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 30720
-Filename: kmod-rtw88-8822cu_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 8678
-SHA256sum: a1da11c0b1c077a947298acb2087e734cdefdc9542d82492d0ca7743b931355d
+Filename: kmod-rtw88-8822cu_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 8688
+SHA256sum: 51131f62bf481eecfad5e8bea5435677feff91f6d05a213960f8b7091f3d7e87
 Description:  Realtek RTL8822CU support
 
 Package: kmod-rtw88-88xxa
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88-usb
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 102400
-Filename: kmod-rtw88-88xxa_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 35211
-SHA256sum: 6c768118917478de1a1f0c426cfb9832c57d592e1b754a086064628bc029a7af
+Filename: kmod-rtw88-88xxa_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 35312
+SHA256sum: 51dd757c73ad891f4cb9418b5e4b32e15871f680b758d08fa273faf74f2294a8
 Description:  Realtek RTL8812A/RTL8821A family support
 
 Package: kmod-rtw88-pci
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 122880
-Filename: kmod-rtw88-pci_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 42694
-SHA256sum: 20de55fa8a7ed0a970ef3beb935dce733286ac3771fe5b19978a88ef54f6b3fc
+Filename: kmod-rtw88-pci_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 42811
+SHA256sum: de9f958bc3288469abf577e8e1406e6a632475085eb6fd72965d983e9419deae
 Description:  Realtek RTW88 PCI chips support
 
 Package: kmod-rtw88-sdio
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mmc, kmod-rtw88
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 112640
-Filename: kmod-rtw88-sdio_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 38408
-SHA256sum: 0f5b0613764946ed707e798850160605b93410f89fe8487809dfcd16862d3fa2
+Filename: kmod-rtw88-sdio_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 38561
+SHA256sum: 8509c0cf4e443f32fbb3fe9da54a1ec0a3245508a9dccf49ada600a1eab039bc
 Description:  Realtek RTW88 SDIO chips support
 
 Package: kmod-rtw88-usb
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw88, kmod-usb-core
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 112640
-Filename: kmod-rtw88-usb_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 38757
-SHA256sum: 91e9f95ceb3c6aea36b88db5bf1e71f911070bc80061a2765faeb16ce3110079
+Filename: kmod-rtw88-usb_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 38834
+SHA256sum: 8db5675f78dbd76cd5436e39a3e96ddf4e7973580def40a96f764199e30044ae
 Description:  Realtek RTW88 USB chips support
 
 Package: kmod-rtw88
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 419840
-Filename: kmod-rtw88_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 129961
-SHA256sum: 330139976bf49d7667ce498b50ac1bd392842126d5ca2e13385b4625db54ce37
+Filename: kmod-rtw88_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 129993
+SHA256sum: ecb3d8684f50710ee8bb73bcc321765e067dae0e984d7cfeb50c0af466cbb782
 Description:  Realtek RTW88 common part
 
 Package: kmod-rtw89-8851be
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw89-pci, rtl8851be-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 624640
-Filename: kmod-rtw89-8851be_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 156207
-SHA256sum: ed3a7da4aef820ee033f46eaf64fc321f7a6bd4180e4d329582f6d64f9c660cd
+Filename: kmod-rtw89-8851be_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 156341
+SHA256sum: 5f1a40e1b290bd18c35d041c36e8c4a99bd720bb959f72527a78f689463ee938
 Description:  Realtek RTL8851BE support
 
 Package: kmod-rtw89-8852ae
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw89-pci, rtl8852ae-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 1013760
-Filename: kmod-rtw89-8852ae_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 171926
-SHA256sum: 9a64c0415e9d1104e17a6487a64b93b9af497adec9516a4cb5ff71d329cbadbd
+Filename: kmod-rtw89-8852ae_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 172101
+SHA256sum: 17c50577ec2abb8856e094dadc3a366899b77d5580f050d52f625ef30ed6c69d
 Description:  Realtek RTL8852AE support
 
 Package: kmod-rtw89-8852b-common
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw89-pci
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 215040
-Filename: kmod-rtw89-8852b-common_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 69147
-SHA256sum: 49904449b1241eabb48082b55fdf1e1e7fd16c72454852e77d46a2b3e5fd6bc4
+Filename: kmod-rtw89-8852b-common_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 69335
+SHA256sum: 5b86af6913ff6d10a75457fe3e7c6093dedd0c689d9074b0b5344358a4862b46
 Description:  Realtek RTL8852B family support
 
 Package: kmod-rtw89-8852be
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw89-8852b-common, rtl8852be-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 655360
-Filename: kmod-rtw89-8852be_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 154472
-SHA256sum: 1d6b4e2de7e8748159fecd9a47e61136ead35bdf6ae283093bddbf6d05241dbb
+Filename: kmod-rtw89-8852be_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 154691
+SHA256sum: 626e7b013345da8014c9594c16263e3118e15ef04473cf88024db357942a7725
 Description:  Realtek RTL8852BE support
 
 Package: kmod-rtw89-8852ce
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw89-pci, rtl8852ce-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 1300480
-Filename: kmod-rtw89-8852ce_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 190151
-SHA256sum: 2ca6e73c9b5a64c02588b5f8228072a559f4dbed8a5a68caf8ac3f4479048a16
+Filename: kmod-rtw89-8852ce_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 190435
+SHA256sum: bf386625befe31d3fc0285114c88fa9561c19b58e17b9fc2f809890a891162d9
 Description:  Realtek RTL8852CE support
 
 Package: kmod-rtw89-8922ae
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw89-pci, rtl8922ae-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 378880
-Filename: kmod-rtw89-8922ae_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 124811
-SHA256sum: 54ce9984c58a3ee4bcc57f125df9b934ddfaaa5d5abbde65cf929febecf88d80
+Filename: kmod-rtw89-8922ae_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 124932
+SHA256sum: ffda7aae8a38df7ce1a0a8b9402f65b822583438924f5d826db528e3d8540d35
 Description:  Realtek RTL8922AE support
 
 Package: kmod-rtw89-pci
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-rtw89
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 245760
-Filename: kmod-rtw89-pci_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 81984
-SHA256sum: 80414fd244066c74dee76b0382024b548d3572bbda844681e80656d7c1413352
+Filename: kmod-rtw89-pci_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 82023
+SHA256sum: abcb02a97740af87630ceb8357081dfddc69d2949b022a983a3287573719de1a
 Description:  Realtek RTW89 PCI chips support
 
 Package: kmod-rtw89
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 1320960
-Filename: kmod-rtw89_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 391308
-SHA256sum: 323494e7736709ecbb74918217408393b79c7a15ad0f50cd97fa80e513ce9da2
+Filename: kmod-rtw89_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 391487
+SHA256sum: 3bdbb960304a65f3d951491ff9b4d5bd19fd963ed6570a5d0a09fdd828ef7892
 Description:  Realtek RTW89 core
 
 Package: kmod-sched-act-ipt
@@ -15443,16 +15495,16 @@ Description:  Support for the ARM SP805 wathchdog module.
  HiSilicon HI3660 among others.
 
 Package: kmod-wil6210
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mac80211, wil6210-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 583680
-Filename: kmod-wil6210_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 171358
-SHA256sum: 896232e4af8de459d19f6c355f9617d3ea7762d083f22109870c7e004efd6a97
+Filename: kmod-wil6210_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 171426
+SHA256sum: 3dac48244dc3a9f243c9a1259eacb817ebeda25ca2c6c35c2751201a13ac0e84
 Description:  QCA/Wilocity 60g WiFi card wil6210 support
 
 Package: kmod-wireguard
@@ -15474,42 +15526,42 @@ Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and uti
  alike, fit for many different circumstances. It uses UDP.
 
 Package: kmod-wl12xx
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-wlcore, wl12xx-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/wl12xx
 Architecture: x86_64
 Installed-Size: 194560
-Filename: kmod-wl12xx_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 48065
-SHA256sum: fe21cf39ceb00b1a399c39b057abf131843f318479e518edbb624b4e7e3e9775
+Filename: kmod-wl12xx_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 48058
+SHA256sum: f08924b7c5afc59fb325344e91a149c858207ca6602e74a6cefc45efd1da271b
 Description:  Kernel modules for TI WL12xx
 
 Package: kmod-wl18xx
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-wlcore, wl18xx-firmware
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/en/users/drivers/wl18xx
 Architecture: x86_64
 Installed-Size: 286720
-Filename: kmod-wl18xx_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 65141
-SHA256sum: 6bae1bec2b612b84f60adf780c45835a127a273b3d7bfedc344302d6ce802488
+Filename: kmod-wl18xx_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 65184
+SHA256sum: 403574a1afc72d07d67624bbd53b6bdadd83574d4a5bcde8d84bcca04b350190
 Description:  Kernel modules for TI WL18xx
 
 Package: kmod-wlcore
-Version: 6.18.14.6.18.10-r1
+Version: 6.18.14.6.18.14-r1
 Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-mmc, kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 URL: https://wireless.wiki.kernel.org/
 Architecture: x86_64
 Installed-Size: 532480
-Filename: kmod-wlcore_6.18.14.6.18.10-r1_x86_64.ipk
-Size: 157538
-SHA256sum: 85026e6da8308af9ca54e6ff036752d0173a1665e39f652802a3455373e1c183
+Filename: kmod-wlcore_6.18.14.6.18.14-r1_x86_64.ipk
+Size: 157477
+SHA256sum: 091038c9c23ce40acd112f396e91cc82c8adbe16bea0a5e7f78117d7a095e835
 Description:  This module contains some common parts needed by TI Wireless drivers.
 
 Package: kmod-wwan
@@ -15590,8 +15642,8 @@ URL: https://www.dpdk.org
 Architecture: x86_64
 Installed-Size: 28815360
 Filename: libdpdk_24.07-r1_x86_64.ipk
-Size: 10677946
-SHA256sum: 543674e15a1d9ba129f00e43feccdb3be0c37d770568fed40614ed167bfc1db3
+Size: 10686377
+SHA256sum: c171c5767b8279b192ebad12204e3bd731164db3f52331e2bbd6d77c97d28776
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -15699,8 +15751,8 @@ Section: libs
 Architecture: x86_64
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_x86_64.ipk
-Size: 22310
-SHA256sum: 2264fa559b39becaac8c5f9a137bae2c697e0c8afd2239825c6d2f1b772d6019
+Size: 22313
+SHA256sum: df103a5a578efebca842f484b5c1d61e809e342a0448bc45bdb71d0b645faed4
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -15938,8 +15990,8 @@ URL: https://github.com/numactl/numactl
 Architecture: x86_64
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_x86_64.ipk
-Size: 43427
-SHA256sum: 6a7278a81b557f6f9bbf7f06917cdd17fa07402747741a47a9acbbb8144db498
+Size: 43436
+SHA256sum: 2fe22a18e61efdd1d43ca74d9c173c95da0394f41c1318906ef5ef36c8c9dc16
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
@@ -15989,6 +16041,18 @@ Filename: rtl8812a-firmware_20251125-r1_x86_64.ipk
 Size: 18314
 SHA256sum: 6e88c8da3a82b860a6ef9599c950441c78638787b35488096ca0dc7f10542333
 Description:  RealTek RTL8812AU firmware
+
+Package: rtl8814a-firmware
+Version: 20251125-r1
+Depends: libc
+Section: firmware
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Architecture: x86_64
+Installed-Size: 81920
+Filename: rtl8814a-firmware_20251125-r1_x86_64.ipk
+Size: 38713
+SHA256sum: 7ad3ae9c48010f8771e13f5e50f74a291b17d67358a0b1a16f79e0e3abc89018
+Description:  RealTek RTL8814AU firmware
 
 Package: rtl8821a-firmware
 Version: 20251125-r1
