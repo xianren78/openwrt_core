@@ -4,7 +4,7 @@
   "packages": {
     "arptables-nft": "1.8.10-r1",
     "autocore-x86": "1.0.0-r1",
-    "base-files": "1~7381901",
+    "base-files": "1~1bd4739",
     "block-mount": "2024.07.14~408c2cc4-r1",
     "blockd": "2024.07.14~408c2cc4-r1",
     "comgt-directip": "0.32-r36",
@@ -850,6 +850,7 @@
     "kmod-rtl8723be": "6.18.15.6.18.14-r1",
     "kmod-rtl8723bs": "6.18.15.6.18.14-r1",
     "kmod-rtl8821ae": "6.18.15.6.18.14-r1",
+    "kmod-rtl8822cs": "6.18.15.5.15.8.3-r17",
     "kmod-rtl8852au": "6.18.15.1.15.0.1-r1",
     "kmod-rtl8xxxu": "6.18.15.6.18.14-r1",
     "kmod-rtlwifi-btcoexist": "6.18.15.6.18.14-r1",
