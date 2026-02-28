@@ -34,8 +34,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_generic
 Installed-Size: 266240
 Filename: base-files_1~7381901_aarch64_generic.ipk
-Size: 52629
-SHA256sum: 6c088324609b5805e80a755984c60a795ef5e05dc01ba8bf1d72859d6675e05d
+Size: 52631
+SHA256sum: e2ba7de567a4b425536d6fbea0650d3c7fc377b03fa3699eb76bb4b835c1f9fd
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -110,8 +110,8 @@ URL: https://www.dpdk.org
 Architecture: aarch64_generic
 Installed-Size: 1495040
 Filename: dpdk-tools_24.07-r1_aarch64_generic.ipk
-Size: 342873
-SHA256sum: d363a88123110d8de71f441c0d8f8f980860c5f823044b4d06bc80bbf3d50373
+Size: 342934
+SHA256sum: 4d6022395ddb58af135d8b92fe10eadf8a0d7251f05199bf6fd33f38d376e4a8
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -7993,8 +7993,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 194560
 Filename: kmod-mt76-connac_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 67629
-SHA256sum: a875b744cfed8f372d55ca0b91aaaad990c4bd54f88a34aeb25c34801eae9902
+Size: 67666
+SHA256sum: 58c3b4c84b698663c97a0cd409bf90019ea8509c3602abd2c38c02d6dc4f8d27
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -8005,8 +8005,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 286720
 Filename: kmod-mt76-core_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 89429
-SHA256sum: 988167052cbba032bd46a654b4e7f87340ad9caf9de07bac728060a8b9eb05d4
+Size: 89444
+SHA256sum: 7e5fb8651f587177cabc0a11ef4d88cb2a155366bd1979963d908404cf8e38b5
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt76-sdio
@@ -8017,8 +8017,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: kmod-mt76-sdio_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 26613
-SHA256sum: 6ea00e7e9681ed16853e5be78f4b7872f79bb4dcc42ca6dd08da56b7f207c615
+Size: 26618
+SHA256sum: c3a02ecd9f61fc8d82df038ddde161a87777e915931fa1f0633de5508b3906d0
 Description:  MediaTek MT7615/MT79xx SDIO driver common code
 
 Package: kmod-mt76-usb
@@ -8029,8 +8029,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 102400
 Filename: kmod-mt76-usb_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 31573
-SHA256sum: ac64d3379292e94696ef431ee55089f0c0309538cbb4f77ae298e1c5b6482678
+Size: 31600
+SHA256sum: 3dd15592e20f18ded25c22e59f15a578173bd6ab358f8b322a6fbbcb673bb00d
 Description:  MediaTek MT76xx wireless driver USB support
 
 Package: kmod-mt7601u
@@ -8054,8 +8054,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 327680
 Filename: kmod-mt7603_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 134636
-SHA256sum: f4ddcd5b2db15762658c80dee65f19422edbce1c25dd7944ce3b6283c33a5f61
+Size: 134635
+SHA256sum: e1fdf7d7c8b58d78d307dd334be21cb5fed83458d9f2bc7ad70cfa008f4cd064
 Description:  MediaTek MT7603 wireless driver
 
 Package: kmod-mt7615-common
@@ -8066,8 +8066,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 296960
 Filename: kmod-mt7615-common_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 95299
-SHA256sum: 9053dad78b0902c048606954d48fa9b38c32644b75df2a2684a82f8bca536cba
+Size: 95315
+SHA256sum: 998d8991c3c8094c2ee0ddd612dd7898f386df7b63cb9a0e7f900c68588e94dd
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615-firmware
@@ -8090,8 +8090,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-mt7615e_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 36109
-SHA256sum: d7ebf2bd6b8db630b2770d40b0d326213ca483fe61d89895817504158b4f2d8f
+Size: 36103
+SHA256sum: 4add52beb277ad31d8fb145a074e3f951f5743b101a71062fe61d89610c3cdd8
 Description:  MediaTek MT7615e wireless driver
 
 Package: kmod-mt7622-firmware
@@ -8138,8 +8138,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: kmod-mt7663-usb-sdio_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 28719
-SHA256sum: 6a25243a89709889d6ad9c08490642d4e24788cd65b6f890bed1579cc9022479
+Size: 28715
+SHA256sum: bb3d3c9ccd5c9402ae065cd311f679dcbe80a0a102c37435b373d663ab3e6741
 Description:  MediaTek MT7663 USB/SDIO shared code
 
 Package: kmod-mt7663s
@@ -8150,8 +8150,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-mt7663s_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 29150
-SHA256sum: 4e5e7bef42f72b0b7230fda6d0acfece2651526899a04612560b687f8c0551cf
+Size: 29149
+SHA256sum: a42deb66d5d881ddf1392fdc632820ed4397ca52559f375416f7c7687cf8fa1d
 Description:  MediaTek MT7663s wireless driver
 
 Package: kmod-mt7663u
@@ -8162,8 +8162,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-mt7663u_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 28935
-SHA256sum: cc8e00483163bda6bb694c17ff66cfaa88c11165126fefc96caeae86c4b1f913
+Size: 28958
+SHA256sum: ff063e19d53f57a01b5b5f51d18c117c8f3ccfabe7fd8d29618d73c60eb16386
 Description:  MediaTek MT7663u wireless driver
 
 Package: kmod-mt76
@@ -8186,8 +8186,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 194560
 Filename: kmod-mt76x0-common_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 82726
-SHA256sum: 1059aa34e9c90e7e32896e87a7cd02d177017e6e32761f36d3168b4334db9b4d
+Size: 82724
+SHA256sum: f6fbdb84ea0df56a6d6512154776bf242659a5b9e2554d4e6273b1dbf7114f17
 Description:  MediaTek MT76x0 wireless driver common code
 
 Package: kmod-mt76x02-common
@@ -8198,8 +8198,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 184320
 Filename: kmod-mt76x02-common_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 60488
-SHA256sum: 420e11de362fb15c7abb860f3aad52b287ed634588119b53434c66cb1ca08be8
+Size: 60453
+SHA256sum: f245bca58c9ff96437f7a823f625ec8059ed90bda739021a9ff46de4cc3b8fcb
 Description:  MediaTek MT76x0/MT76x2 wireless driver common code
 
 Package: kmod-mt76x02-usb
@@ -8210,8 +8210,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: kmod-mt76x02-usb_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 25783
-SHA256sum: f55effe17e455e29bcecabcc06f11487cf8e2b9b898685e1008f4f8f47d213c9
+Size: 25774
+SHA256sum: edc177dd0b880602934d4a9cded5e26608468165c3bd5314e53c9b0ef319482a
 Description:  MediaTek MT76x0/MT76x2 USB wireless driver common code
 
 Package: kmod-mt76x0e
@@ -8222,8 +8222,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-mt76x0e_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 30315
-SHA256sum: c71e063d729d4894e3810ed881d52412543832d835a6a5d174002adaaa95df08
+Size: 30335
+SHA256sum: aaf032967b2dd35533a825a1f86738d2ff5088168ec4f0c174822209cd13e0e5
 Description:  MediaTek MT76x0E wireless driver
 
 Package: kmod-mt76x0u
@@ -8234,8 +8234,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-mt76x0u_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 29556
-SHA256sum: a22a6f5d0a49b5121f0946148d81eafea1b415ca95555c03fb5ba2d93c8e923d
+Size: 29569
+SHA256sum: bb526d76b806511d46a44c3ef0ccb6b8de8a307c8ceacbbad397041b2dbb98ba
 Description:  MediaTek MT76x0U wireless driver
 
 Package: kmod-mt76x2-common
@@ -8246,8 +8246,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 184320
 Filename: kmod-mt76x2-common_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 99800
-SHA256sum: 58c8c76fe928d40fad5f78c384c185dfb692538e868a9f1e6e17a8a19f56c97e
+Size: 99815
+SHA256sum: 54093bc216bcd85abe0af7294e5ac62a9a888988e9d68cd7b00037eca022a477
 Description:  MediaTek MT76x2 wireless driver common code
 
 Package: kmod-mt76x2
@@ -8258,8 +8258,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-mt76x2_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 35482
-SHA256sum: f12afdf82ae0acd6b7da4ac58cafe18c2a50c74aa8a1804552046cdb89006cec
+Size: 35506
+SHA256sum: e8f59623c497d39d85d798c369b57b8067b3f304d744d520d4b9f72407a416ee
 Description:  MediaTek MT76x2 wireless driver
 
 Package: kmod-mt76x2u
@@ -8270,8 +8270,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-mt76x2u_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 34957
-SHA256sum: 399d694f551972e919512fe4268c7d0f99d5026b5d3561d02117b6680656e0bb
+Size: 34938
+SHA256sum: 965d9659e398ebefa34664a96a484724f59e27d18791bf0fa174b84f35d33f58
 Description:  MediaTek MT76x2U wireless driver
 
 Package: kmod-mt7915-firmware
@@ -8294,8 +8294,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 409600
 Filename: kmod-mt7915e_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 128969
-SHA256sum: 345a55f81df2fba20613f695edc5300a602ec27a337df421dbbf9a091c7c9ad2
+Size: 128974
+SHA256sum: cec040fe5bddcecaaa8fbd00bb24f67ecd1441c8d7d99a330661632b1efc05c9
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7916-firmware
@@ -8318,8 +8318,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 337920
 Filename: kmod-mt7921-common_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 78229
-SHA256sum: 8ba07f39eec51d6d5cdd5fbaeffc054df1497c911efb00291ec2073e1c3ceec7
+Size: 78296
+SHA256sum: d911fce65a455b47fff30d14a4e0487444bd2c7e305c13cb7939ac44adefc58f
 Description:  MediaTek MT7921 wireless driver common code
 
 Package: kmod-mt7921-firmware
@@ -8342,8 +8342,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 102400
 Filename: kmod-mt7921e_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 33135
-SHA256sum: d178252fbe1f9b3700e168caa2580bab987577e5ca5446ea34f1a7c89c847ac4
+Size: 33192
+SHA256sum: 56ef74e7a1b1e0293b58deb459af91a8c37af0642c597376a3e861f865a67192
 Description:  MediaTek MT7921e wireless driver
 
 Package: kmod-mt7921s
@@ -8354,8 +8354,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 102400
 Filename: kmod-mt7921s_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 31776
-SHA256sum: 54aca7f539081ad7ec6ae91df164ce3ce05981a49aeebef98b95426f9fb3d834
+Size: 31845
+SHA256sum: 53373e83bba31f5d8a6ae901be6516e34f6a433512fd1c4c9a562c9ef7e21c8d
 Description:  MediaTek MT7921S wireless driver
 
 Package: kmod-mt7921u
@@ -8366,8 +8366,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-mt7921u_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 28950
-SHA256sum: 42ff5b1c570545cc9620b5e320aee5ed322ac21b1c25ea36d6758fda9964dba1
+Size: 29030
+SHA256sum: c8dbe7777e31c2ca99da8e6bcdb81851d1246b4e4648c9429ce9c58c0637929e
 Description:  MediaTek MT7921U wireless driver
 
 Package: kmod-mt7922-firmware
@@ -8390,8 +8390,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 307200
 Filename: kmod-mt7925-common_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 96525
-SHA256sum: 76e60d117f909ac21fc9915509212c83d30954c8da7945449e989c14b074997b
+Size: 97672
+SHA256sum: 0678dc3b034646668c24ff269413e5f297ce7ad9cc66963a3a0008136c609dfa
 Description:  MediaTek MT7925 wireless driver common code
 
 Package: kmod-mt7925-firmware
@@ -8414,8 +8414,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 102400
 Filename: kmod-mt7925e_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 32966
-SHA256sum: ee194ecd84099d00580c5cf9dcb06b0f11813683d37e316ee23f1290bffadc7f
+Size: 33039
+SHA256sum: 1c70f718bcb95605130e99f447780e583eba8b225c6be2ea53ce7f1dcccc8f76
 Description:  MediaTek MT7925e wireless driver
 
 Package: kmod-mt7925u
@@ -8426,8 +8426,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-mt7925u_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 29181
-SHA256sum: 02898c5923350943d05effea8ff79e7a21e8ec4b97ace748b30d7b5e63928a96
+Size: 29233
+SHA256sum: cd9f826eb313cca9f88989547f3de0ed3a22da27192647a65bfd71af55ed5804
 Description:  MediaTek MT7925U wireless driver
 
 Package: kmod-mt792x-common
@@ -8438,8 +8438,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 163840
 Filename: kmod-mt792x-common_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 52924
-SHA256sum: bccb6b14705493a75de0ce8abc31e75cd045fb2632ecba88b06b4e3e41b965db
+Size: 53022
+SHA256sum: 9626839392e177bc1fe1556771382ab7e16f47507bdfb164291aa837907c835b
 Description:  MediaTek MT792x wireless driver common code
 
 Package: kmod-mt792x-usb
@@ -8450,8 +8450,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: kmod-mt792x-usb_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 21926
-SHA256sum: 87110fe6c76f5f185772aaf09f267687d0760258753d41d6c9e2a0419aa550ee
+Size: 21953
+SHA256sum: 3130cc7dab3ef407fefce641c55aecd464d2792f894bc81677ca23491699a62a
 Description:  MediaTek MT792x wireless driver USB code
 
 Package: kmod-mt7992-23-firmware
@@ -8522,8 +8522,8 @@ Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 440320
 Filename: kmod-mt7996e_6.18.14.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 144016
-SHA256sum: f69a0127f0aad0b8994ad462345fa96075d190e55f184d9c42f530d702565e33
+Size: 144058
+SHA256sum: 8d28537d16c110b4a9c4764df9cb657f4b94de7544ac58060b40b66a930c3ec5
 Description:  MediaTek MT7996E wireless driver
 
 Package: kmod-mtd-rw
@@ -11183,28 +11183,16 @@ Size: 112364
 SHA256sum: e302aa623b83c5fa00662f7cc0860970480341f18f9fe5125ad8718d31ae298b
 Description:  Realtek RTL8821AE support
 
-Package: kmod-rtl8822cs
-Version: 6.18.14.5.15.8.3-r17
-Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-cfg80211
-License: GPLv2
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 4464640
-Filename: kmod-rtl8822cs_6.18.14.5.15.8.3-r17_aarch64_generic.ipk
-Size: 1191404
-SHA256sum: 1ef9f72e831d21ecd992973f5a424f1acd10cd94d75141919c1b672a3b4759cb
-Description:  Realtek RTL8822CS SDIO WiFi support (High Performance)
-
 Package: kmod-rtl8852au
 Version: 6.18.14.1.15.0.1-r1
-Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-cfg80211
+Depends: kernel (=6.18.14~a25d57a4427ed38562346239cf005842-r1), kmod-usb-core, kmod-cfg80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_generic
 Installed-Size: 7393280
 Filename: kmod-rtl8852au_6.18.14.1.15.0.1-r1_aarch64_generic.ipk
-Size: 2340004
-SHA256sum: bc6792892229b6f129784846e19e489132d090d7ea76c0b2baf398d920ce0ce8
+Size: 2339931
+SHA256sum: d79a1bddc38170d0d66af7b70d9f58f75a6c070214de619bc7d264993b4b6f55
 Description:  Realtek RTL8852AU / RTL8832AU support (out-of-tree)
 
 Package: kmod-rtl8xxxu
@@ -15255,8 +15243,8 @@ URL: https://www.dpdk.org
 Architecture: aarch64_generic
 Installed-Size: 19281920
 Filename: libdpdk_24.07-r1_aarch64_generic.ipk
-Size: 8245251
-SHA256sum: 70a0a63a6954e2c123da135230deaec53b214729ebc8d31725e8b681212b1a31
+Size: 8239384
+SHA256sum: 8cf3a76a4121601b910c5149d30cf7fcaa12868dd204613feb82694bc5430079
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -15364,8 +15352,8 @@ Section: libs
 Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_aarch64_generic.ipk
-Size: 24867
-SHA256sum: 003da66fde26099e09a8a60c69aa302c8cb40945391ca48b5881f35bbc240176
+Size: 24875
+SHA256sum: 2474bd374dda36eb9735a0dbeb29af66f0e64219ac20f8952751f37c70ef90fd
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -15574,8 +15562,8 @@ URL: https://github.com/numactl/numactl
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_aarch64_generic.ipk
-Size: 44245
-SHA256sum: 88b44f0dcf6ca3058c4e66dffd303f30fb49747a737e49a9c377b615a38bbb90
+Size: 44234
+SHA256sum: a78f474a4f4a6a3e01616f80fd1f0b25ef56f816afe6776e3a0ecdc471d9829a
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
