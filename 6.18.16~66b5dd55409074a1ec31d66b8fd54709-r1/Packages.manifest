@@ -44,8 +44,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_generic
 Installed-Size: 266240
 Filename: base-files_1~d9c5716d1d_aarch64_generic.ipk
-Size: 52629
-SHA256sum: db39520c4e28bd0a918043e06716bcc8d20c0bdd5456a26a3601652bb0cd6209
+Size: 52630
+SHA256sum: ab11d91e1ad6be141cbabc264d8b31d574aa73a8c284fa72687c24fbb2970e60
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -139,14 +139,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1772679986
+SourceDateEpoch: 1773062230
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 1495040
 Filename: dpdk-tools_24.07-r1_aarch64_generic.ipk
-Size: 342867
-SHA256sum: 003b0043476c84248f1ca3265d59248560e6de9abb3299df4143130ad22a570e
+Size: 342957
+SHA256sum: 4f46ae9c3cdc4531aac6ec2b538f6e646a48bfda93e6caad3a25a045cd0e4c0e
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -14542,13 +14542,13 @@ Source: feeds/base/kernel/rtl8822cs
 SourceName: rtl8822cs
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1772373264
+SourceDateEpoch: 1772762089
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 4464640
 Filename: kmod-rtl8822cs_6.18.16.5.15.8.3-r17_aarch64_generic.ipk
-Size: 1191369
-SHA256sum: 389af75bb873a723dd37ef66780414a5a3230832c4c2d84d2e7c35946ead1174
+Size: 1191534
+SHA256sum: 6bdf36d3a7537bcab7931e358b67890c2649583cc03e58ccd89d6531fd3f638b
 Description:  Realtek RTL8822CS SDIO WiFi support (High Performance)
 
 Package: kmod-rtl8852au
@@ -19861,14 +19861,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1772679986
+SourceDateEpoch: 1773062230
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 19281920
 Filename: libdpdk_24.07-r1_aarch64_generic.ipk
-Size: 8234108
-SHA256sum: 804f8326fb36aaaf43f2ebdb485fe019cbc085e30edbc22eed884909856865af
+Size: 8252163
+SHA256sum: d868a0034b4e8f1765619f5e9bb8b4a61fa5c487a657a2021549b5ee79f17333
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -19995,13 +19995,13 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1772679986
+SourceDateEpoch: 1773062230
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_aarch64_generic.ipk
-Size: 24862
-SHA256sum: 2831995fad936a7aebba15af7d4b6e9a5235ba3bacb50ebafa961c696b1b77da
+Size: 24874
+SHA256sum: 762689a36eb2277e241de8986ece15bc2ea9d221bcc01f71243efeed1fa6635d
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -20267,14 +20267,14 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1772679986
+SourceDateEpoch: 1773062230
 URL: https://github.com/numactl/numactl
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_aarch64_generic.ipk
-Size: 44221
-SHA256sum: d8d93150830ea40db5d6d93481b88273e7dc221c01c0bb431377602442d787f3
+Size: 44220
+SHA256sum: 8e75d8ab7b98417beccbab35b07772d109b284c72ddc19a68b10c07433a6f058
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
