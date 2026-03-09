@@ -34,8 +34,8 @@ URL: http://openwrt.org/
 Architecture: x86_64
 Installed-Size: 276480
 Filename: base-files_1~d9c5716d1d_x86_64.ipk
-Size: 52753
-SHA256sum: 896cfd236c9c89178e8087ca4b6a2df4c9da596b2809d08563140521128bbb03
+Size: 52757
+SHA256sum: 4f5ffa561a67adfeaafbdc6d3cc63d18322b39083a6b4d2fe86611e2b9c376a5
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -110,8 +110,8 @@ URL: https://www.dpdk.org
 Architecture: x86_64
 Installed-Size: 1351680
 Filename: dpdk-tools_24.07-r1_x86_64.ipk
-Size: 368908
-SHA256sum: 4490871a1ba87039a4a57044d96b099670d124a8ac85c01109ab1e1e647b3582
+Size: 368912
+SHA256sum: 53677314b3e3cefa168fce533f109e5518d92c9e6419ffb6b9d9fbbce0697907
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -11549,8 +11549,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 4300800
 Filename: kmod-rtl8822cs_6.18.16.5.15.8.3-r17_x86_64.ipk
-Size: 1150838
-SHA256sum: 88d4b874c4c63da1da5f1b4b9a36ccc24af5fcfbd875af2168b03e05f76f44d2
+Size: 1150535
+SHA256sum: b77dade2a7c46cc2c172c18bafc6426b3e040a6b52ca76c828d9bf87e380d963
 Description:  Realtek RTL8822CS SDIO WiFi support (High Performance)
 
 Package: kmod-rtl8852au
@@ -15642,8 +15642,8 @@ URL: https://www.dpdk.org
 Architecture: x86_64
 Installed-Size: 28815360
 Filename: libdpdk_24.07-r1_x86_64.ipk
-Size: 10686471
-SHA256sum: d61057b1d5fe20f745f66520d82b875eb52367bbb292331496f415939eb4b36a
+Size: 10684229
+SHA256sum: ec75b010afbf3ce6124d1776b7f2e6a60ad2c82a766c8967d34b3cbd1700730d
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -15751,8 +15751,8 @@ Section: libs
 Architecture: x86_64
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_x86_64.ipk
-Size: 22305
-SHA256sum: 72dc1a9be7492cefe2338abd75cb2b880b04f3aaa5014c1de9d7d1a620c61dc1
+Size: 22314
+SHA256sum: 8760edb088a278214b4a35293f6a446d6ec4e9577408dd2dcb601fcb227c9506
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -15990,8 +15990,8 @@ URL: https://github.com/numactl/numactl
 Architecture: x86_64
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_x86_64.ipk
-Size: 43445
-SHA256sum: 07bfd27942fc96a27c2cdecdcb1c494dae0050cad84930ec4f10019a30a701a8
+Size: 43443
+SHA256sum: 6fe56c1c92baf229fa5d5a42357bc0967e89033a609f278034050a3fef4e1616
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
