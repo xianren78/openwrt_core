@@ -34,8 +34,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_generic
 Installed-Size: 266240
 Filename: base-files_1~d9c5716d1d_aarch64_generic.ipk
-Size: 52625
-SHA256sum: 21b403ac0c921937519cd156603455e76f7ac1160021c2d7eefb4da32e277d10
+Size: 52627
+SHA256sum: 16bbfa974af51751bafb90bc597c7735fae09676a6014dabe22571b761f08695
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -110,8 +110,8 @@ URL: https://www.dpdk.org
 Architecture: aarch64_generic
 Installed-Size: 1495040
 Filename: dpdk-tools_24.07-r1_aarch64_generic.ipk
-Size: 342949
-SHA256sum: d1e2ce2c3820a25402a421599af8a13170b2bd25e60041a29b614ecac8a64863
+Size: 342898
+SHA256sum: 96e44cd06204e7a7d5e656cb167c446afbd4571b0890e674a1cc3981cda9e24c
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -4056,10 +4056,10 @@ License: GPL-2.0-only
 Section: kernel
 CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
-Installed-Size: 307200
+Installed-Size: 3921920
 Filename: kmod-fuse_6.18.16-r1_aarch64_generic.ipk
-Size: 91710
-SHA256sum: 8c38b197bebdcdc6cfa96725dd1d612dcfee8d52764e80c56b0725a9778a7575
+Size: 1333793
+SHA256sum: 69fde594cb16a6791a359f04543b2773ce0cd6800b12087bf5a95f5d33818d72
 Description:  Kernel module for userspace filesystem support
 
 Package: kmod-geneve
@@ -15255,8 +15255,8 @@ URL: https://www.dpdk.org
 Architecture: aarch64_generic
 Installed-Size: 19281920
 Filename: libdpdk_24.07-r1_aarch64_generic.ipk
-Size: 8226583
-SHA256sum: 8e59fe50b9be065380ca6d4e925af0cfd878aab978ba1509c2e6a300fa2b1857
+Size: 8240788
+SHA256sum: fd5d53aff6c107fec7edd72ca74b8c3dbf3411a6b47ce8530fd98de9c82e46ff
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -15364,8 +15364,8 @@ Section: libs
 Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_aarch64_generic.ipk
-Size: 24862
-SHA256sum: cb9711e82cfcfb8a3bd77d59ed24475f3bf8603582b7c7bdb52b1be9b3bb455d
+Size: 24863
+SHA256sum: b9aabaf970282c39310480024db267b7de3390a4c28887b118101f39f9af4329
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -15574,8 +15574,8 @@ URL: https://github.com/numactl/numactl
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_aarch64_generic.ipk
-Size: 44232
-SHA256sum: 90f04276224d630e5c10acff630a6acaf04839a83a7ca82f12ce5304938d46a6
+Size: 44225
+SHA256sum: 1bedc551a701e3194c446fb7c61f6b8d40c58e4d702d139e499002465d442fde
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
