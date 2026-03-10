@@ -45,7 +45,7 @@ Architecture: x86_64
 Installed-Size: 276480
 Filename: base-files_1~d9c5716d1d_x86_64.ipk
 Size: 52757
-SHA256sum: 4f5ffa561a67adfeaafbdc6d3cc63d18322b39083a6b4d2fe86611e2b9c376a5
+SHA256sum: f58efb9e2e6630226e75cdcc19017a992fd661f5c3af8f2b71e2c8e73c72f80a
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -139,14 +139,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1773062202
+SourceDateEpoch: 1773107677
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: x86_64
 Installed-Size: 1351680
 Filename: dpdk-tools_24.07-r1_x86_64.ipk
-Size: 368912
-SHA256sum: 53677314b3e3cefa168fce533f109e5518d92c9e6419ffb6b9d9fbbce0697907
+Size: 368942
+SHA256sum: 10b15480188ed6d706ebefbdde74f1846cc0daf728ba497b6076620c0cb739cd
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -20347,14 +20347,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1773062202
+SourceDateEpoch: 1773107677
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: x86_64
 Installed-Size: 28815360
 Filename: libdpdk_24.07-r1_x86_64.ipk
-Size: 10684229
-SHA256sum: ec75b010afbf3ce6124d1776b7f2e6a60ad2c82a766c8967d34b3cbd1700730d
+Size: 10687843
+SHA256sum: c87db87e035486242e616fc80fa79549eea1f04097aed75578bb7018869a594c
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -20481,13 +20481,13 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1773062202
+SourceDateEpoch: 1773107677
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: x86_64
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_x86_64.ipk
-Size: 22314
-SHA256sum: 8760edb088a278214b4a35293f6a446d6ec4e9577408dd2dcb601fcb227c9506
+Size: 22305
+SHA256sum: 7aea4f26d130cfe752cb2f0dec56a85aea1bd43170ae8b5fe7838e70dcb53040
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -20791,14 +20791,14 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1773062202
+SourceDateEpoch: 1773107677
 URL: https://github.com/numactl/numactl
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: x86_64
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_x86_64.ipk
-Size: 43443
-SHA256sum: 6fe56c1c92baf229fa5d5a42357bc0967e89033a609f278034050a3fef4e1616
+Size: 43442
+SHA256sum: 8d41039add508eccaad9c302aa53234d65429013fd1f05ca4447fd4657ff6c36
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
