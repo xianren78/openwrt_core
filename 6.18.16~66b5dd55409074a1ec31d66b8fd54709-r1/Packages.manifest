@@ -44,8 +44,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_generic
 Installed-Size: 266240
 Filename: base-files_1~d9c5716d1d_aarch64_generic.ipk
-Size: 52630
-SHA256sum: e5e60c3288742b4302ba8194479be28b96efe6608ef8a53a053cc48ae0630abf
+Size: 52629
+SHA256sum: dee4bdc88f06abed544e5942df6fe07007e37e4708be3d20ce3208ec338e66cc
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -139,14 +139,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1773147498
+SourceDateEpoch: 1773194169
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 1495040
 Filename: dpdk-tools_24.07-r1_aarch64_generic.ipk
-Size: 342931
-SHA256sum: 34026d2cd088567788c625f6d50556c8a7ee5fb5cd27790c5f62ab8d72479568
+Size: 342972
+SHA256sum: a085d5a257751c829d6dd014504cc1fdc4a58dee6172fb5466ec29e5c323b2a4
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -897,8 +897,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 40960
 Filename: kmod-6lowpan_6.18.16-r1_aarch64_generic.ipk
-Size: 12489
-SHA256sum: 8d9c0c75320bdc34c23ce46c0a230a89614366f86a25a39e9409a767cf4a688c
+Size: 12491
+SHA256sum: ce5c04c7fba136bc85ae7308dc2fa63bb91a8f1173c25b0a999c05a663acd94b
 Description:  Shared 6lowpan code for IEEE 802.15.4 and Bluetooth.
 
 Package: kmod-8139cp
@@ -1035,8 +1035,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 102400
 Filename: kmod-alx_6.18.16-r1_aarch64_generic.ipk
-Size: 27047
-SHA256sum: c65febe8777ba1a60a0cec1b8b3daaad34c0aebfbe3319d1aac9ee74560d34da
+Size: 27048
+SHA256sum: a591e734e516dfa0624c1cbca916bbf551f5dc70ed1ace883a7e1977488781af
 Description:  Qualcomm Atheros AR816x/AR817x PCI-E Ethernet Network Driver
 
 Package: kmod-amazon-ena
@@ -1052,8 +1052,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 225280
 Filename: kmod-amazon-ena_6.18.16-r1_aarch64_generic.ipk
-Size: 71409
-SHA256sum: 8fb81de1349602e66fbd6924b33e466925fa821bcd3d1c6f759eec273835fc34
+Size: 71413
+SHA256sum: a51aed2e3c334d1aa6828309c82c44a934c4d27f54d4324d73db5ee314645789
 Description:  This driver supports Elastic Network Adapter (ENA)
  used by Amazon AWS T3 (2018) and later instances.
 
@@ -1070,8 +1070,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-aoe_6.18.16-r1_aarch64_generic.ipk
-Size: 32814
-SHA256sum: f9ce3c2dfab8a49f34529858b1ff07c38af8273083f8ed472ba8299fe1079483
+Size: 32821
+SHA256sum: f3f07ee86f019bafa980d98b2286ecc98b035205b639e9be228887eb92e28232
 Description:  Kernel support for ATA over Ethernet
 
 Package: kmod-appletalk
@@ -1087,8 +1087,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-appletalk_6.18.16-r1_aarch64_generic.ipk
-Size: 24204
-SHA256sum: 844f2ec1f07122bde152935b87de66ecbe1c33a463159a55f9df0881f7c70322
+Size: 24209
+SHA256sum: aaba05f62ca9d125fa10529333b7bc1f86565306d7e0bf350dbb585413cd0c47
 Description:  Kernel module for AppleTalk protocol.
 
 Package: kmod-ar5523
@@ -1362,8 +1362,8 @@ Maintainer: Ben Greear <greearb@candelatech.com>
 Architecture: aarch64_generic
 Installed-Size: 1515520
 Filename: kmod-ath10k-ct-smallbuffers_6.18.16.2025.04.30~23ee90f0-r1_aarch64_generic.ipk
-Size: 432237
-SHA256sum: 86687ee6d3ae57f4f240098132aea03de34ee95c2bd4e9599837672625f0046e
+Size: 432266
+SHA256sum: 00c80097bcef99e13b870caac25080d8a240bd5af7b699a4c5fb805cb7e49f26
 Description:  ath10k-ct driver optimized for CT ath10k firmware (small buffers for low-RAM devices)
 
 Package: kmod-ath10k-ct
@@ -1379,8 +1379,8 @@ Maintainer: Ben Greear <greearb@candelatech.com>
 Architecture: aarch64_generic
 Installed-Size: 1515520
 Filename: kmod-ath10k-ct_6.18.16.2025.04.30~23ee90f0-r1_aarch64_generic.ipk
-Size: 432245
-SHA256sum: 2b3b5608d3dae52585e02e64c33cb726c38c6e6ba50e21f0dfd67343de01e569
+Size: 432225
+SHA256sum: db6b472ed53b981d59db130bd70747de1965f8acba5129f7c80ce5e8e3ee3361
 Description:  ath10k-ct driver optimized for CT ath10k firmware
 
 Package: kmod-ath10k-smallbuffers
@@ -1398,8 +1398,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1320960
 Filename: kmod-ath10k-smallbuffers_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 375490
-SHA256sum: 62f5e6ddc30cef6f56adc2fc6652c4f7ba2467a2da599bbd5e9fbb59a6be3389
+Size: 375495
+SHA256sum: c6172fb994aad6e394cf40e68d5c0f8dbb62ebfec6fe952cf64a286631cf5706
 Description:  Atheros 802.11ac wireless cards support (small buffers for low-RAM devices)
 
 Package: kmod-ath10k
@@ -1417,7 +1417,7 @@ Architecture: aarch64_generic
 Installed-Size: 1320960
 Filename: kmod-ath10k_6.18.16.6.18.14-r1_aarch64_generic.ipk
 Size: 375544
-SHA256sum: 8a538b12311d216cc6f197e22ef3b3a0db7df6bea7363c6fc7baec6af1608ec8
+SHA256sum: 8698de5dcec319a99c4148232ca9d29b5287b18f2054ffeb760a0eb0b33c612b
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11ac family of chipsets. For now only
  PCI is supported.
@@ -1455,8 +1455,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1443840
 Filename: kmod-ath11k_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 387897
-SHA256sum: 96f1de77b25ba086c8bdd94c0c8aeb70e7be4f2eb2caf36f7bcb4e94aef23d0c
+Size: 387937
+SHA256sum: ad595c45b6f7321b0af16ad79baf696315fc3bfc9e4ce5fec03ffcb4498c02be
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets.
 
@@ -1474,8 +1474,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1689600
 Filename: kmod-ath12k_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 476364
-SHA256sum: 598abce98540024dea566fe9af239a940c8ace9884b072f47d8d0d654fd1a9d6
+Size: 476499
+SHA256sum: 75158d9a2644bb0534c607521f828bd1e10b5a39b657f7bdef5c9f7f8868c8de
 Description:  This module adds support for Qualcomm Technologies 802.11be family of
  chipsets with PCI bus.
 
@@ -1510,8 +1510,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 430080
 Filename: kmod-ath5k_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 130799
-SHA256sum: ffa0305c6c390c70cab42afb1eb9efe9fc8e44db32597194ccb6c2b1e2a6f7fb
+Size: 130784
+SHA256sum: b0c8cd153eb239c89538ed8a7d4e69b213079be98cfe27ac52059d7e54d82508
 Description:  This module adds support for wireless adapters based on
  Atheros 5xxx chipset.
 
@@ -1567,8 +1567,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 604160
 Filename: kmod-ath6kl_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 178525
-SHA256sum: cce4ba30bd48275c41ca5df3ead90243f58ea0f56cd251680d5f83b220c421b1
+Size: 178504
+SHA256sum: c4f9fe48de1945889129c094b49878620648f94a02d8bfe395470626180cb820
 Description:  Atheros FullMAC wireless devices (common code for ath6kl_sdio and ath6kl_usb)
 
 Package: kmod-ath9k-common
@@ -1585,8 +1585,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 706560
 Filename: kmod-ath9k-common_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 203730
-SHA256sum: 6942fb4d0587309cd8508868b69d3ed61c34ee6cd830130cb8a130ed8274c3ed
+Size: 203718
+SHA256sum: 1083c5c138129d2c92e9b26bb230d466d54664596e7b9316534c494849aaa504
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k-htc
@@ -1622,8 +1622,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 368640
 Filename: kmod-ath9k_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 120285
-SHA256sum: d34967080aa003db4464334dc0d58ecc8fd5241a64e9d48d691d5f7b105d8a9f
+Size: 120273
+SHA256sum: 5fb53b62a4e2d19225bcc61e51b1b5af9395e0ae0b58dfbffc019dd34ec57178
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -1675,8 +1675,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-atl1c_6.18.16-r1_aarch64_generic.ipk
-Size: 30772
-SHA256sum: ae22720d8b1093f645c5fbb519f3e0f2a46ad0909982e6c893cc874620ce4bea
+Size: 30773
+SHA256sum: 66e0283161a48031f625776e0ca4164e9d8215b39c8076b33fbeabf71ca6254f
 Description:  Atheros L1C
 
 Package: kmod-atl1e
@@ -1692,8 +1692,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-atl1e_6.18.16-r1_aarch64_generic.ipk
-Size: 24711
-SHA256sum: a2ee75df2de363461ea7ec7d784ef93a224ae8a6fdc25d8dea50576bdcbb41ab
+Size: 24713
+SHA256sum: fcece0a9a20478be0e6167dc860313b2c078fa0893c340114738d3ab04b14b7f
 Description:  Atheros L1E
 
 Package: kmod-atl2
@@ -1726,8 +1726,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 491520
 Filename: kmod-atlantic_6.18.16-r1_aarch64_generic.ipk
-Size: 121615
-SHA256sum: 19ddb5609d69986ab2a6abe65ec44171e644c28f3981764eee49e4ef38774fd7
+Size: 121709
+SHA256sum: f8361a94d782aec6a0fa63acf2bf7985b52878650c5da54041977fbb582ac195
 Description:  Kernel modules for Aquantia AQtion 10Gbps Ethernet NIC
 
 Package: kmod-atm
@@ -1743,8 +1743,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 163840
 Filename: kmod-atm_6.18.16-r1_aarch64_generic.ipk
-Size: 45709
-SHA256sum: 7bd601d08b8cd869b88d7b369318026d41244986896ccfb134ba15685468f3ad
+Size: 45696
+SHA256sum: d6623633de64f1003b7ddfe198e2c77cdde6366c663c7a0529a711b7a627f964
 Description:  Kernel modules for ATM support
 
 Package: kmod-atmtcp
@@ -1794,8 +1794,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 174080
 Filename: kmod-ax25_6.18.16-r1_aarch64_generic.ipk
-Size: 48458
-SHA256sum: d0bb9d920285b8c276659ebbd3dec32d593f6901ef42935c9c66114adae99fa6
+Size: 48461
+SHA256sum: 98ca26d0bb58f750b8426e963cf37b56ba186eb9feab46f457a54c254abddc6d
 Description:  Kernel modules for AX25 support
 
 Package: kmod-b43
@@ -1812,8 +1812,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1075200
 Filename: kmod-b43_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 336204
-SHA256sum: 31416bc59b200caafa31e4828879df9d7b5a1e19dd1d6585b8cffcf393e7e2f5
+Size: 335986
+SHA256sum: 4780d6e22e1c484688b487bb33b6b1e60a9af4ecc2daed831f2f5b0c97545e90
 Description:  Kernel module for Broadcom 43xx wireless support (mac80211 stack) new
 
 Package: kmod-b44
@@ -1914,8 +1914,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 296960
 Filename: kmod-be2net_6.18.16-r1_aarch64_generic.ipk
-Size: 93605
-SHA256sum: 03ba5cd641c83114972b2f3e59dfd4739b86396053845d342856fffdd14994e6
+Size: 93611
+SHA256sum: 8e916aa8e249288e9006a793ae2cfce5e8c9c9e785f8a0dec844fef6441c8b88
 Description:  Broadcom Emulex OneConnect 10Gbit SFP+ support, OneConnect OCe10xxx OCe11xxx OCe14xxx, LightPulse LPe12xxx
 
 Package: kmod-block2mtd
@@ -1965,8 +1965,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1740800
 Filename: kmod-bluetooth_6.18.16-r1_aarch64_generic.ipk
-Size: 492884
-SHA256sum: 39fff60a998e6e6fb63bb5fe99921a120456708f15ef7ea0a019ae938b78c1cb
+Size: 492886
+SHA256sum: ee3c7db6e0798d8ddd073341edfee930e1d717dbdf859406181c66d8f03b6be7
 Description:  Kernel support for Bluetooth devices
 
 Package: kmod-bnx2
@@ -1999,8 +1999,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1515520
 Filename: kmod-bnx2x_6.18.16-r1_aarch64_generic.ipk
-Size: 423122
-SHA256sum: 10a7bcc9e32fa44a06290c230db29da50f0f09ccbdc62087b9bcb1893345687c
+Size: 423191
+SHA256sum: 54dda67f7283a2c78dba2c6546b5494b24ffb63af785b79a1394ca8914b32495
 Description:  QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver
 
 Package: kmod-bnxt-en
@@ -2016,8 +2016,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 665600
 Filename: kmod-bnxt-en_6.18.16-r1_aarch64_generic.ipk
-Size: 216976
-SHA256sum: c9f87c28cfe8f6d4ef743def482ba33b9f25d47d763ff25dfc80545360604243
+Size: 216978
+SHA256sum: 45edc916ee09f037df42de6e86c2738457830314f5ac014700413b3f9c75489a
 Description:  Supports Broadcom NetXtreme-C/E based Ethernet NICs including:
  * BCM573xx
  * BCM574xx
@@ -2035,8 +2035,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 327680
 Filename: kmod-bonding_6.18.16-r1_aarch64_generic.ipk
-Size: 91231
-SHA256sum: 404e3254576527e731338763335951249eb03de2f295fdb76d0677b032cdca34
+Size: 91270
+SHA256sum: ec4f184e8adff2d724262d80c9420220e7c39dd9ca3d88f5d8d355f88bf01c74
 Description:  Kernel module for NIC bonding.
 
 Package: kmod-bpf-test
@@ -2087,8 +2087,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 870400
 Filename: kmod-brcmfmac_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 274386
-SHA256sum: 538d614dd0d3ac6100417e3a71f08e0341f2ceb9dd4f1238116da5ba40fb96fc
+Size: 274410
+SHA256sum: 6958aedf432d54c3b5bfde0535bf5897de2f027b6a0ef28312f6f491076734e1
 Description:  Kernel module for Broadcom IEEE802.11n USB Wireless cards
 
 Package: kmod-brcmsmac
@@ -2105,8 +2105,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1024000
 Filename: kmod-brcmsmac_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 289651
-SHA256sum: a43242e656969aaf36edf9a57bc17af27a896d6ac064c36d79a87d00673bc936
+Size: 289655
+SHA256sum: 0462c69d34e39f3240556f3695dc2cfa735bdfb3c42257f70dc41560167fe380
 Description:  Kernel module for Broadcom IEEE802.11n PCIe Wireless cards
 
 Package: kmod-brcmutil
@@ -2266,8 +2266,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 40960
 Filename: kmod-can-c-can_6.18.16-r1_aarch64_generic.ipk
-Size: 10296
-SHA256sum: b37c4d4917032b55ba189443f3557f1d24ad85227fd74b6ea7dd308849e0d083
+Size: 10286
+SHA256sum: 6ba66832041d653975983408e341951d1aadd899a578539c031025b6c5446e92
 Description:  This driver adds generic support for the C_CAN/D_CAN chips.
 
 Package: kmod-can-gw
@@ -2335,8 +2335,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 40960
 Filename: kmod-can-slcan_6.18.16-r1_aarch64_generic.ipk
-Size: 9344
-SHA256sum: 3661a085fbefc593d8d786c2017e3a6e9274dbaa77943ad8c065aaf84cb9e151
+Size: 9346
+SHA256sum: 2896b503483277e3b885a69365dfd0c951acf05ec3ef305c21e2b07f8d60aac6
 Description:  CAN driver for several 'low cost' CAN interfaces that are attached
  via serial lines or via USB-to-serial adapters using the LAWICEL
  ASCII protocol.
@@ -2425,8 +2425,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-can-usb-kvaser_6.18.16-r1_aarch64_generic.ipk
-Size: 30708
-SHA256sum: 1134848b1136aaa106498ad1f1fe7710e5f0becfd6458b70d80fd97f350dcdbd
+Size: 30698
+SHA256sum: 8ae589e00f0cdf1f939c7cbc21e478186e97f1d5b6c492cf43f7399c4e374026
 Description:  This driver adds support for Kvaser CAN/USB devices like Kvaser
  Leaf Light.
 
@@ -2566,8 +2566,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1955840
 Filename: kmod-cfg80211_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 420883
-SHA256sum: bdc071ce49fd74ce8269329fe454b1f8884a9bed658ca17fd164cc67949a20be
+Size: 420919
+SHA256sum: d135be3b0423bc0282d2d675cdef183a8ac5a4a3443334920caabda5a5d0241b
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-chaoskey
@@ -3593,8 +3593,8 @@ Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
 Architecture: aarch64_generic
 Installed-Size: 317440
 Filename: kmod-dahdi_6.18.16.2025.1.2~648016d6-r1_aarch64_generic.ipk
-Size: 88835
-SHA256sum: d8f999e49add32438ba14ca29b257a37a66d12311570f482920adca5dbcf89be
+Size: 88875
+SHA256sum: 5540d7a7968b19de9d1ecdbb051d40ccb866483c8653a26ba7b568cab6a62ca4
 Description:  This package contains DAHDI basic infrastructure.
 
 Package: kmod-dax
@@ -3610,8 +3610,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: kmod-dax_6.18.16-r1_aarch64_generic.ipk
-Size: 17846
-SHA256sum: d2540f3aa919e6c443e50b73cc9f62a0f0fd50c990c8b4655e97b7c1d9b2ee03
+Size: 17850
+SHA256sum: 46a77c0b17e77f9c98446500a7dc6182068af0ff94de9a4617c7914f3b51d641
 Description:  DAX: direct access to differentiated memory
 
 Package: kmod-dm-raid
@@ -3661,8 +3661,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 471040
 Filename: kmod-dm_6.18.16-r1_aarch64_generic.ipk
-Size: 138615
-SHA256sum: 1b8fa4d33c3bc5dee2ac852c2ae1a2ad6668d2f2e790bc5a3fe542dfc298f784
+Size: 138594
+SHA256sum: 1f28a97cef4024dca055c0242945fbead380d3f21c901e66ac6316fd8326a758
 Description:  Kernel module necessary for LVM2 support
 
 Package: kmod-dma-buf
@@ -3918,7 +3918,7 @@ Architecture: aarch64_generic
 Installed-Size: 419840
 Filename: kmod-dsa-mv88e6xxx_6.18.16-r1_aarch64_generic.ipk
 Size: 92680
-SHA256sum: d65354ac12130ee375522e835040b953d230f1cb8ca6c5c4c21ee43322561589
+SHA256sum: 7e5d0d7abed31f0c7eb19146ce54cc14882e91df650d4f9db20afc001ec40b53
 Description:  Kernel modules for MV88E6XXX DSA switches
 
 Package: kmod-dsa-qca8k
@@ -3968,8 +3968,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 327680
 Filename: kmod-dsa_6.18.16-r1_aarch64_generic.ipk
-Size: 77213
-SHA256sum: 89a2255cde1e3d2acfca20bc7f7edf2e928877dfcfb3a1f5964613a68254fa4a
+Size: 77263
+SHA256sum: 3ed5eb5b12034342be7c6a00a705043504452537dfc1bc21fbcb2c1c625abd6d
 Description:  Kernel module support for Distributed Switch Architecture
 
 Package: kmod-dummy
@@ -4053,8 +4053,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 245760
 Filename: kmod-e1000_6.18.16-r1_aarch64_generic.ipk
-Size: 70321
-SHA256sum: ad63824a80eea89ebf0cbb89c2ebed53db60d25b3c0a18357474e9b24a231df5
+Size: 70347
+SHA256sum: 8249ccc9765518173acff52264c82296fa3093bc977e0a074f89f2e3bbd216dd
 Description:  Kernel modules for Intel(R) PRO/1000 PCI Ethernet adapters.
 
 Package: kmod-e1000e
@@ -4070,8 +4070,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 491520
 Filename: kmod-e1000e_6.18.16-r1_aarch64_generic.ipk
-Size: 122033
-SHA256sum: 4658b14af435d75e4cb066de203e29e54b3f34984765de77d7beee560ce4e78c
+Size: 122020
+SHA256sum: 2129d3915b7d3724a8f23ea9c7e96a345efc4c893f30a4945a481b34d2951fac
 Description:  Kernel modules for Intel(R) PRO/1000 PCIe Ethernet adapters.
 
 Package: kmod-e100
@@ -4452,8 +4452,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 337920
 Filename: kmod-firewire_6.18.16-r1_aarch64_generic.ipk
-Size: 75375
-SHA256sum: f84933d70c734426583a68dac7f633520be9b2646a221b71afcc7b762aeaf953
+Size: 75371
+SHA256sum: 94c090b89f6fb38f983474ab488f0a9ba47a5062f6296a3bca49357cf0ace322
 Description:  Kernel support for FireWire (new stack)
 
 Package: kmod-fixed-phy
@@ -4557,8 +4557,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: kmod-fs-autofs4_6.18.16-r1_aarch64_generic.ipk
-Size: 22455
-SHA256sum: 2de581bb8365e82c2c77f432eb48950e0966014dfb51c93286dc4673046d2302
+Size: 22459
+SHA256sum: 4eb12b3f4e569e20f359607a3b392a611eba93c9ee2e1284e74d29e0316a1687
 Description:  Kernel module for AutoFS4 support
 
 Package: kmod-fs-btrfs
@@ -4574,8 +4574,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 2990080
 Filename: kmod-fs-btrfs_6.18.16-r1_aarch64_generic.ipk
-Size: 809609
-SHA256sum: c9a9f4a27be3b396d94787381eda0f8d3e1613c0a65f1c9d0b44a008b66c61ad
+Size: 809635
+SHA256sum: 7559f08d9e24ae2892ee3a99dc476ee117d140d3e37edbe6dffe2c7845e9a1ab
 Description:  Kernel module for BTRFS support
 
 Package: kmod-fs-cifs
@@ -4591,8 +4591,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1607680
 Filename: kmod-fs-cifs_6.18.16-r1_aarch64_generic.ipk
-Size: 416877
-SHA256sum: 0efe2d0779c85782a9e63a440fcdd14339f72035f4179bd7f43ed3bd747a8a1f
+Size: 416586
+SHA256sum: 02dfde0f8325d0b944c5fde65a1b0a53bf379ed5e4ea191306f50dbe127c6211
 Description:  Kernel module for CIFS support
 
 Package: kmod-fs-configfs
@@ -4608,8 +4608,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 92160
 Filename: kmod-fs-configfs_6.18.16-r1_aarch64_generic.ipk
-Size: 21601
-SHA256sum: 02b5b132d1e9c8246a07c6251035affad39744f09a674f66c573b1fed86fb25b
+Size: 21596
+SHA256sum: 20cbfe6d1f82aedd36213cd0992cc16d2df219f119f0d684feee664bc21e218f
 Description:  Kernel module for configfs support
 
 Package: kmod-fs-cramfs
@@ -4642,8 +4642,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 153600
 Filename: kmod-fs-exfat_6.18.16-r1_aarch64_generic.ipk
-Size: 51099
-SHA256sum: 1d46d5a187e37d254ab3e80568da3197840601d0802e5eb379177049d0d65dbd
+Size: 51170
+SHA256sum: 11680178b768731f55229bbccedb379f2c283603a7c10607374f2e78cb276ad6
 Description:  Kernel module for exFAT filesystem support
 
 Package: kmod-fs-exportfs
@@ -4727,8 +4727,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 133120
 Filename: kmod-fs-hfs_6.18.16-r1_aarch64_generic.ipk
-Size: 39926
-SHA256sum: 08b8fe16a2f649c5de399ba066b7ff262c3f81428d8e09c288942edc5de734ea
+Size: 39937
+SHA256sum: 8178b685ba0d29a3eba0e6168a4d8a355401627ffb89ac51c0b4b7c6c5f80df3
 Description:  Kernel module for HFS filesystem support
 
 Package: kmod-fs-hfsplus
@@ -4744,8 +4744,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 204800
 Filename: kmod-fs-hfsplus_6.18.16-r1_aarch64_generic.ipk
-Size: 67561
-SHA256sum: aacc1ac64c3e8bf26dc75a0f63cf0bbd30c3539c53abc78f957e581bd7c8df01
+Size: 67532
+SHA256sum: d193230d3f61fdc4754c3851512c95f8fb8ed3be47b1ea7bef716a678fb71cc8
 Description:  Kernel module for HFS+ filesystem support
 
 Package: kmod-fs-isofs
@@ -4761,8 +4761,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: kmod-fs-isofs_6.18.16-r1_aarch64_generic.ipk
-Size: 20848
-SHA256sum: 8176bf601f0b1406b4796f559524d42a9a6deaf2fe902ee4bb811e3d63d0dcbd
+Size: 20856
+SHA256sum: 2be6183ba82f8545cd74a35a67f1b93201f9b0dd6b46647da8cc5cbb70c52819
 Description:  Kernel module for ISO9660 filesystem support
 
 Package: kmod-fs-jfs
@@ -4778,8 +4778,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 348160
 Filename: kmod-fs-jfs_6.18.16-r1_aarch64_generic.ipk
-Size: 112657
-SHA256sum: 73c8d67192b210aeedc6fcc117a9c5425ab48ced8d5c64376626d81eb8e4ac6d
+Size: 112674
+SHA256sum: 9869cd9ad8cd6c402ad4f81d06ab410c876c227f56451be0e51517b5c01ee6cd
 Description:  Kernel module for JFS support
 
 Package: kmod-fs-ksmbd
@@ -4795,8 +4795,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 532480
 Filename: kmod-fs-ksmbd_6.18.16-r1_aarch64_generic.ipk
-Size: 157833
-SHA256sum: 623977243298cca65ae1c3d5d02982fcc69b2f723c50ea8bf2b9589864d7601e
+Size: 157831
+SHA256sum: 405d3d3304ec0f4918b304dcb3c65276b59a22df1b8ffba9576ac93fa2033f51
 Description:  Kernel module for SMB kernel server support
 
 Package: kmod-fs-minix
@@ -4812,8 +4812,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: kmod-fs-minix_6.18.16-r1_aarch64_generic.ipk
-Size: 20211
-SHA256sum: dc5425f6ff907a3fabd1b6d98af50f29de148192c866d51c7c09e2a05daba32b
+Size: 20208
+SHA256sum: 2f33b45b767b8f0212b3977b5ad13f4be0049fb2ee9b448def65e5028e96ec26
 Description:  Kernel module for Minix filesystem support
 
 Package: kmod-fs-msdos
@@ -4880,8 +4880,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1382400
 Filename: kmod-fs-nfs-common_6.18.16-r1_aarch64_generic.ipk
-Size: 304124
-SHA256sum: d37463c004569648494118d14a7fc1eedf6d038ce4bd2f9bf23623eebee1da12
+Size: 303791
+SHA256sum: 3d08bb6ec7b6f146cfc57ae37bd6a2d0432e9bc7d65f9362e55277115f426f99
 Description:  Common NFS filesystem modules
 
 Package: kmod-fs-nfs-v3
@@ -4897,8 +4897,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 256000
 Filename: kmod-fs-nfs-v3_6.18.16-r1_aarch64_generic.ipk
-Size: 82001
-SHA256sum: 5b44e6fbf53bc56cf8536f24d21cf033d4234946714787e5aa72adaeb08a4cef
+Size: 82030
+SHA256sum: 9e1b0eb3b7f52c16b10dd35f973610cd1043329d5f8ec1b2206eda586ebbc96a
 Description:  Kernel module for NFS v3 client support
 
 Package: kmod-fs-nfs-v4
@@ -4914,8 +4914,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 2109440
 Filename: kmod-fs-nfs-v4_6.18.16-r1_aarch64_generic.ipk
-Size: 453915
-SHA256sum: bce27946f24122702a71da78f5a81432b434df5d6811aa6174343bd247a52d11
+Size: 454169
+SHA256sum: 195a3ffb452d52af01192b0b495e61a56a86b43edc44258060df1aedfbf8229d
 Description:  Kernel module for NFS v4 client support
 
 Package: kmod-fs-nfs
@@ -4931,8 +4931,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1269760
 Filename: kmod-fs-nfs_6.18.16-r1_aarch64_generic.ipk
-Size: 342045
-SHA256sum: b7ec8e0e962f2a54e385d201fd50d635fcc40d4eb3a66ca15174e0c0175dec40
+Size: 342094
+SHA256sum: ebab044bb33e58591f2de5b43dc1168d4984891d1b116d0cd4718e48432984c6
 Description:  Kernel module for NFS client support
 
 Package: kmod-fs-nfsd
@@ -4948,8 +4948,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1474560
 Filename: kmod-fs-nfsd_6.18.16-r1_aarch64_generic.ipk
-Size: 322321
-SHA256sum: ba973745c81e3285d588c487b52c305d1c0b0bee155dd0eef9800847d9f8bcbb
+Size: 322313
+SHA256sum: 9f1fb7d124081739f2001812afe5b1d1c7b16299cdff7fa80fb6e5142ab1b6fe
 Description:  Kernel module for NFS kernel server support
 
 Package: kmod-fs-ntfs3
@@ -4965,8 +4965,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 419840
 Filename: kmod-fs-ntfs3_6.18.16-r1_aarch64_generic.ipk
-Size: 151086
-SHA256sum: c90524cb86e896311faf5d0e42a93b247890baf7164258da859c73459019f64f
+Size: 151139
+SHA256sum: bd39afe97a2bc1ce845111d00a95cf002c788d0f1d854bdaab1312559e5189fb
 Description:  Kernel module for fully functional NTFS filesystem support. It allows
  reading as well as writing.
  
@@ -5036,8 +5036,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 184320
 Filename: kmod-fs-udf_6.18.16-r1_aarch64_generic.ipk
-Size: 61021
-SHA256sum: 4be4a5585bd32e8ca89225e85ef28eca46ef7d768ada825d139e68f9f3f157c6
+Size: 61035
+SHA256sum: 95e99fa9806988e0d4cb0d5b015613a15939ea7ea145bf35382acf62c3011dde
 Description:  Kernel module for UDF filesystem support
 
 Package: kmod-fs-vfat
@@ -5053,8 +5053,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 174080
 Filename: kmod-fs-vfat_6.18.16-r1_aarch64_generic.ipk
-Size: 55330
-SHA256sum: cac7368e15ac2cd2355795207dd2230ae6556dfd35855b6b19bd8c564df81aea
+Size: 55343
+SHA256sum: a78f8a34bf56a45dedff295556778bcf705a46e13da7a1a1040a4467a1cd948e
 Description:  Kernel module for VFAT filesystem support
 
 Package: kmod-fs-xfs
@@ -5070,8 +5070,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 3584000
 Filename: kmod-fs-xfs_6.18.16-r1_aarch64_generic.ipk
-Size: 759538
-SHA256sum: a1c845145de885cce87c52d351c2cdd965a7779ad1344e9a7f1224eb9fc5c982
+Size: 759850
+SHA256sum: 7c195a7fb5a969504d1fa87a83bd415d0df8a6fd2ed448942c251de2e6cab19a
 Description:  Kernel module for XFS support
 
 Package: kmod-fsl-dpaa1-net
@@ -5122,8 +5122,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 256000
 Filename: kmod-fsl-dpaa2-net_6.18.16-r1_aarch64_generic.ipk
-Size: 72156
-SHA256sum: b4eb87b4491619cf6bb43f3c917af59e629832655e70e2f9b1a284efa7ed6217
+Size: 72197
+SHA256sum: e0dc69aa5e1c04f20e95f174f2aad7c5e51688f405a296960d2ad165877fd4b7
 Description:  NXP DPAA2 Ethernet
 
 Package: kmod-fsl-enetc-net
@@ -5222,10 +5222,10 @@ Section: kernel
 SourceDateEpoch: 1766090374
 CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
-Installed-Size: 3921920
+Installed-Size: 307200
 Filename: kmod-fuse_6.18.16-r1_aarch64_generic.ipk
-Size: 1333793
-SHA256sum: 69fde594cb16a6791a359f04543b2773ce0cd6800b12087bf5a95f5d33818d72
+Size: 91708
+SHA256sum: ce2497d5fed40e9bf9047bad2822ba6579ab3d1e88594240339cf7aa2a882ff3
 Description:  Kernel module for userspace filesystem support
 
 Package: kmod-geneve
@@ -6364,8 +6364,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 829440
 Filename: kmod-i40e_6.18.16-r1_aarch64_generic.ipk
-Size: 252334
-SHA256sum: f8b198146c83e7dbdebf53b800baf565e1786ab9cced1aaf8038a63f3c4d426f
+Size: 252339
+SHA256sum: ca0bd73bd5702e06a95bc89cafc6796c31d06a31dbc29a840b89a885ab87513a
 Description:  Kernel modules for Intel(R) Ethernet Controller XL710 Family 40 Gigabit Ethernet adapters.
 
 Package: kmod-i6300esb-wdt
@@ -6399,8 +6399,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 296960
 Filename: kmod-iavf_6.18.16-r1_aarch64_generic.ipk
-Size: 92767
-SHA256sum: 5c2f00c0e1f2d06de92eeb99962cdf8d0846a73936a39419ce7ecfd0d212cb4a
+Size: 92749
+SHA256sum: 6c59eee737fc238bffa0e990b0632aa67bba7f7069c905ebd6d34833df117a56
 Description:  Kernel modules for Intel XL710,
  X710, X722, XXV710, and all devices advertising support for
  Intel Ethernet Adaptive Virtual Function devices.
@@ -6435,8 +6435,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 286720
 Filename: kmod-ieee802154_6.18.16-r1_aarch64_generic.ipk
-Size: 62820
-SHA256sum: 3d5fb0443f69a7508a7e8aac56903cd94cd594aace96ac5fad0de7ed9a9b0d11
+Size: 62822
+SHA256sum: f03018f4147295954132696b780a0633d626d1952c1629497bcb385998d51286
 Description:  IEEE Std 802.15.4 defines a low data rate, low power and low
  complexity short range wireless personal area networks. It was
  designed to organise networks of sensors, switches, etc automation
@@ -6473,8 +6473,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 542720
 Filename: kmod-igb_6.18.16-r1_aarch64_generic.ipk
-Size: 141029
-SHA256sum: 6e10fdba1c9fa7587c2e07da39a0feb46aaba3b9d4b08de8590dcfa4fd98e332
+Size: 141005
+SHA256sum: 21dd205dbcfb4c12206d4aa72339bd74d6fa8ea69f83533452df9db36b6858d9
 Description:  Kernel modules for Intel(R) 82575/82576 PCI-Express Gigabit Ethernet adapters.
 
 Package: kmod-igc
@@ -6490,8 +6490,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 286720
 Filename: kmod-igc_6.18.16-r1_aarch64_generic.ipk
-Size: 87192
-SHA256sum: 9a1825b73bb967e6d27533b9eb1877908923004127904275fa976d2ca2403e95
+Size: 87215
+SHA256sum: 66f644edce043915291d191c1bfd6f35585b8156c3ab28146d5c97dd89507440
 Description:  Kernel modules for Intel(R) Ethernet Controller I225 Series
 
 Package: kmod-iio-ad799x
@@ -6701,8 +6701,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 184320
 Filename: kmod-iio-core_6.18.16-r1_aarch64_generic.ipk
-Size: 51392
-SHA256sum: 61717181e6eb0667536b369c2910cfe1313f0b14524360c0381c4bcc29dae56b
+Size: 51451
+SHA256sum: f71cd97f2d4f89a50b595791bc349cc40f248d35afcab1b0d63964e547cba258
 Description:  The industrial I/O subsystem provides a unified framework for
  drivers for many different types of embedded sensors using a
  number of different physical interfaces (i2c, spi, etc)
@@ -7002,8 +7002,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: kmod-iio-st_accel_6.18.16-r1_aarch64_generic.ipk
-Size: 17892
-SHA256sum: 44ec4246f5e269fc353955afe11b34a51cb54e4102627803c3372215cf5c743f
+Size: 17887
+SHA256sum: df7347e91f12b2af068cd67e51886981efcf56f38e56949567468b2880d0e343
 Description:  This package adds support for STMicroelectronics accelerometers:
  LSM303DLH, LSM303DLHC, LIS3DH, LSM330D, LSM330DL, LSM330DLC,
  LIS331DLH, LSM303DL, LSM303DLM, LSM330, LIS2DH12, H3LIS331DL,
@@ -7041,8 +7041,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: kmod-ikconfig_6.18.16-r1_aarch64_generic.ipk
-Size: 58710
-SHA256sum: 9e11e674d2a1fa94251ef342e413dd21f1b7303d8fb371311802c441841424f7
+Size: 58783
+SHA256sum: 9650fe4bdc44828632582f09256bf53e04d247b59cf064133c0b7cc735662f13
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -8145,8 +8145,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: aarch64_generic
 Installed-Size: 378880
 Filename: kmod-ipt-lua_6.18.16.3.26-r1_aarch64_generic.ipk
-Size: 101793
-SHA256sum: 65f88a468c4dccbdd1470c8883403a58be80f7a2ba055f5078f95a289c28220d
+Size: 101868
+SHA256sum: d3cad1072058ae09b0463463593cd2f86c61cb3e68b46b0904f8ee6e0cc7fe53
 Description:  Lua PacketScript netfilter module
 
 Package: kmod-ipt-nat-extra
@@ -8637,8 +8637,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 2621440
 Filename: kmod-iwlwifi_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 834702
-SHA256sum: a1fc05a89bc98c8f99b55f413f78dee77e5c437d7f3083dba5d9192f9d494a43
+Size: 834697
+SHA256sum: d3a095af69f4c4dd006d6df44cf155eeee1cdabaa79327abb84856e34bc8f720
 Description:  iwlwifi kernel module for
  Intel Wireless WiFi Link 6250AGN Adapter
  Intel 6000 Series Wi-Fi Adapters (6200AGN and 6300AGN)
@@ -8669,8 +8669,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 706560
 Filename: kmod-ixgbe_6.18.16-r1_aarch64_generic.ipk
-Size: 202346
-SHA256sum: 8b743620b2de3093d526b77d5c1191f949b9427abe66e565e16ee6a0001731f2
+Size: 202374
+SHA256sum: 9866fa299e548f13ee7f313ac99e76f53685163b951f88bd1b7f03c8b0f36ab7
 Description:  Kernel modules for Intel(R) 82598/82599 PCI-Express 10 Gigabit Ethernet adapters.
 
 Package: kmod-ixgbevf
@@ -8686,8 +8686,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: kmod-ixgbevf_6.18.16-r1_aarch64_generic.ipk
-Size: 42968
-SHA256sum: 0fb2ed6a89e924fb0bef11d686e79aca09dba4ecf68d24ec15ec144dd6c96031
+Size: 42960
+SHA256sum: 2d72213ba50fae0fe30b35d0a45717d03a601039ecab58d6451bd43de503d17a
 Description:  Kernel modules for Intel(R) 82599 Virtual Function Ethernet adapters.
 
 Package: kmod-jool-netfilter
@@ -8702,8 +8702,8 @@ SourceDateEpoch: 1766058532
 Architecture: aarch64_generic
 Installed-Size: 491520
 Filename: kmod-jool-netfilter_6.18.16.4.1.13-r1_aarch64_generic.ipk
-Size: 127966
-SHA256sum: a2d8712239b4887624b265b18813bc54429726b5cfa02dec5e81697419991d3e
+Size: 127940
+SHA256sum: 6a5af14bc4a94443131dd3dac10e041dd52e1fd8eceb991d1408b18ef6ab16e9
 Description:  Jool is an Open Source SIIT and NAT64 for Linux.
  
  This package provides the kernel module for Jool with netfilter API Only.
@@ -8814,8 +8814,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: kmod-lan743x_6.18.16-r1_aarch64_generic.ipk
-Size: 41046
-SHA256sum: 0dbae77b37c44976788c476b7333bb40ecc390248e224dd9259d119d27d41952
+Size: 41059
+SHA256sum: 37030ced60bc6f5907717bea73789e6b76db1c545191d6ef92d4d5519e63908e
 Description:  Kernel module for Microchip LAN743x PCI Express Gigabit Ethernet NIC
 
 Package: kmod-leds-ktd202x
@@ -9317,8 +9317,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 122880
 Filename: kmod-lib-raid6_6.18.16-r1_aarch64_generic.ipk
-Size: 82106
-SHA256sum: 45e324063b0a29ae3abb3f68b3546601f2c0d3a68918cf6da18eba46a635cdf5
+Size: 82115
+SHA256sum: 2af25566d1f21ce94bb19ac8188617385b95e26180afc0f6e8a16c0357334ca9
 Description:  Kernel module for RAID6 algorithms
 
 Package: kmod-lib-textsearch
@@ -9419,8 +9419,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 512000
 Filename: kmod-lib-zstd_6.18.16-r1_aarch64_generic.ipk
-Size: 156514
-SHA256sum: beeeb090c853cfdb605255556a03db14c00e20d598e1186d8a953c24b55b13d0
+Size: 156531
+SHA256sum: 2632c18e3e41d37b2ba971edf139df2f975c3e4156ebad242816bd102cd80c07
 Description:  Kernel module for ZSTD compression/decompression support
 
 Package: kmod-libeth
@@ -9609,8 +9609,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 2426880
 Filename: kmod-mac80211_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 621229
-SHA256sum: 26ca8fe4b61131a26f4ea34dd43c2392e2d4e163c06d48488b9aee80d44ac10d
+Size: 621377
+SHA256sum: 75eb63ee527832aeeb3b804cbd909e243b45814d3f86d89c7f4aa94e2dec2142
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mac802154
@@ -9626,8 +9626,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 235520
 Filename: kmod-mac802154_6.18.16-r1_aarch64_generic.ipk
-Size: 52548
-SHA256sum: 18b82b2fe885b98f8e7ba618bc9e39b390420ad9030ed791fc4770c7cf15d169
+Size: 52534
+SHA256sum: 00d3120cfca80a856bed434f82d30f36afc09fa79bf80083668059a7ca825aae
 Description:  This option enables the hardware independent IEEE 802.15.4
  networking stack for SoftMAC devices (the ones implementing
  only PHY level of IEEE 802.15.4 standard).
@@ -9736,8 +9736,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 327680
 Filename: kmod-md-mod_6.18.16-r1_aarch64_generic.ipk
-Size: 92622
-SHA256sum: eb5c20d09d7a594ec5897b6da03c90f0775f647c92ee457b73138b1af83d06fa
+Size: 92621
+SHA256sum: 5b16f06b6ef916a1c4dfc8c46e81c020971fab2a5fc3e6a3c42ba7558054d5b6
 Description:  Kernel RAID md module (md-mod.ko).
  You will need to select at least one RAID level module below.
 
@@ -9987,8 +9987,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 215040
 Filename: kmod-mhi-bus_6.18.16-r1_aarch64_generic.ipk
-Size: 54465
-SHA256sum: 37eac8f7ba3115c73a829359f5ce0852de1a72f2c471e345ad1e55aae29f06cc
+Size: 54449
+SHA256sum: f7146ee3c8712f0a502caf5ff538c65ee6621df030aad40f9170bb63aa01cd82
 Description:  Kernel module for the Qualcomm MHI bus.
 
 Package: kmod-mhi-net
@@ -10105,8 +10105,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 409600
 Filename: kmod-misdn_6.18.16-r1_aarch64_generic.ipk
-Size: 116099
-SHA256sum: 8620170840ff31cd122d96d9bbcf03a82f47f79a0dc3b5bc456fed0eb122e12d
+Size: 116110
+SHA256sum: 7f7e34274b69f2efaee4b947c88e6a73399f02b8c15fa61a13fc23fe82e5ccb5
 Description:  Modular ISDN driver support
 
 Package: kmod-mlx4-core
@@ -10122,8 +10122,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 839680
 Filename: kmod-mlx4-core_6.18.16-r1_aarch64_generic.ipk
-Size: 265232
-SHA256sum: e287a3305fef8990dac9f663ba5e9488d540e8fcfb84355e406db6cee81f1231
+Size: 265242
+SHA256sum: 812e176138c4a7c4669ef591b0ad29736332d7c52c2fc187a8db3d56f4f90cfb
 Description:  Supports Mellanox ConnectX-3 series and previous cards
 
 Package: kmod-mlx5-core
@@ -10139,8 +10139,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1699840
 Filename: kmod-mlx5-core_6.18.16-r1_aarch64_generic.ipk
-Size: 470761
-SHA256sum: 2bee5a9536f9d6fc3ec6eb87eb306edb1910f2115673de02260716ef1732ab6a
+Size: 470670
+SHA256sum: 7413c6affcabb6c1edae87436cd82751325c1e75245e084229f5f29562feb11a
 Description:  Supports Mellanox Connect-IB/ConnectX-4 series and later cards
 
 Package: kmod-mlxfw
@@ -10174,8 +10174,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 327680
 Filename: kmod-mlxsw-core_6.18.16-r1_aarch64_generic.ipk
-Size: 87119
-SHA256sum: 87241c1899fa12cc836d7028c22798ab0d8777c972dd98fe17150160822ae58c
+Size: 87117
+SHA256sum: 7878bb3a173cc7251c49ca75f2488150339aca5a185e30e323a7d4d6d7a3793e
 Description:  This driver supports Mellanox Technologies Switch ASICs family.
 
 Package: kmod-mlxsw-i2c
@@ -10243,8 +10243,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1249280
 Filename: kmod-mlxsw-spectrum_6.18.16-r1_aarch64_generic.ipk
-Size: 330776
-SHA256sum: 2da38c28853b1f440654b10e234f58414a28dc1322134a8466fd66f1d03e2a8f
+Size: 330858
+SHA256sum: ac3afd80d1039adc2f428b574a62a7a6a5feb03a0b061ed77296d2d4bc1b6ce8
 Description:  This driver supports Mellanox Technologies
  Spectrum/Spectrum-2/Spectrum-3/Spectrum-4 Ethernet Switch ASICs.
 
@@ -10361,8 +10361,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 286720
 Filename: kmod-mt76-core_6.18.16.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 89483
-SHA256sum: e4d72c41b079f63eedca61ed504a607c8b016c01ec1c95f972316fcaa9a67cfe
+Size: 89502
+SHA256sum: cfbbea1f4c391f46d335d1c3288f20f94dd7076fc5eaa79b9d55b1114f4581ba
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt76-sdio
@@ -10411,8 +10411,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 317440
 Filename: kmod-mt7601u_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 82907
-SHA256sum: 97ff80f222b7441ee953243d6105a4ae14804566bdce51ecac10c02d4f04ae67
+Size: 82924
+SHA256sum: 73f695eda9978e4b84fce6936d58ada2072282b318229b95feb2792ae536ba9a
 Description:  MT7601U-based USB dongles Wireless Driver
 
 Package: kmod-mt7603
@@ -10428,7 +10428,7 @@ Architecture: aarch64_generic
 Installed-Size: 327680
 Filename: kmod-mt7603_6.18.16.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
 Size: 134673
-SHA256sum: a233d40e595ff32ca6b7f3a830a6696b2c8934019bddcd7f8c4c84fa5d51ed47
+SHA256sum: eb41bb262c4067c60f0fe0f6e7336a7f141866a7a34aa940527b53aa9fe646a0
 Description:  MediaTek MT7603 wireless driver
 
 Package: kmod-mt7615-common
@@ -10443,8 +10443,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 296960
 Filename: kmod-mt7615-common_6.18.16.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 95334
-SHA256sum: de6693a3df9f2a3e16df41d8b3cfd3652a7815f1fc1e571bf8049600b2da582c
+Size: 95340
+SHA256sum: cc2ad912d724494e2a45ee8b4b8ac388d33ff0ba8eb79250ad2faad34d2628f8
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615-firmware
@@ -10700,7 +10700,7 @@ Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-mt76x2_6.18.16.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
 Size: 35519
-SHA256sum: b70333cbf33031a7ec3256652420c9688c0ad8fcd9dde22f60ebe71cc5381e93
+SHA256sum: 7e485bc70a28da69deeae8aa67281ed9d44df7d7b0d7ae2bda6282bab5b37e91
 Description:  MediaTek MT76x2 wireless driver
 
 Package: kmod-mt76x2u
@@ -10715,8 +10715,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-mt76x2u_6.18.16.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 34867
-SHA256sum: 07e571569d70f98eb55102b3fd8a131db89beeb826261d17d1768f8fa266b620
+Size: 34866
+SHA256sum: bf04b8c1542159615f2e7c622704ce38fbcd529cb04ce6966d23051f75bdc34f
 Description:  MediaTek MT76x2U wireless driver
 
 Package: kmod-mt7915-firmware
@@ -10747,8 +10747,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 409600
 Filename: kmod-mt7915e_6.18.16.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 128939
-SHA256sum: 169bf426e9a0d2b40a3809a48febc229f7af7ad0eec92eb958d53e52a74436b8
+Size: 128957
+SHA256sum: a12d3aa45bf9788593b85800526be43d413996b885374b7bf1454adfa08154e2
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7916-firmware
@@ -11051,8 +11051,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 440320
 Filename: kmod-mt7996e_6.18.16.2026.01.28~b2fe7f14-r1_aarch64_generic.ipk
-Size: 144083
-SHA256sum: b054d0afdd1c618aceb6d69ed2a34f4937090006bff18259fc455d9a8587ca89
+Size: 144093
+SHA256sum: 56c7e70653195799855b6cc8fb90f7fbb8745689c383fce78c96887b39d59b3f
 Description:  MediaTek MT7996E wireless driver
 
 Package: kmod-mtd-rw
@@ -11222,8 +11222,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 808960
 Filename: kmod-mwifiex-pcie_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 254227
-SHA256sum: 08652ea4403c1db309bf637880985d469ad10fcbdbf3e7dec87e0addb89a5833
+Size: 254248
+SHA256sum: ffdbb395975f7dcbdc58081a1ad647ae743d59bc9e5f1e56f910db32784e7418
 Description:  Kernel modules for Marvell 802.11n/802.11ac PCIe Wireless cards
 
 Package: kmod-mwifiex-sdio
@@ -11240,8 +11240,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 798720
 Filename: kmod-mwifiex-sdio_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 251918
-SHA256sum: afdcfd577adad17761197a0a3ac33e4a98619496032215ea27c47710287d61d0
+Size: 251947
+SHA256sum: 902da6c773621be5f2e581d79f30c690163f677648e8eea585733da4ad3a9f65
 Description:  Kernel modules for Marvell 802.11n/802.11ac SDIO Wireless cards
 
 Package: kmod-mwl8k
@@ -11503,8 +11503,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 307200
 Filename: kmod-nf-conntrack_6.18.16-r1_aarch64_generic.ipk
-Size: 82356
-SHA256sum: 0c77f05279c152682f65aa4f952ad30639154766f9d733126a37ed69ffdb76db
+Size: 82321
+SHA256sum: 48f04268f9c1e2459fc2672eaf90cc2c2e743129f8c47d07d0fa1c4a965bdba0
 Description:  Netfilter connection tracking
 
 Package: kmod-nf-dup-inet
@@ -11988,8 +11988,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 706560
 Filename: kmod-nft-core_6.18.16-r1_aarch64_generic.ipk
-Size: 191468
-SHA256sum: c789c56894a5d85344404b8e9900669bcc4ade332371e72cf4c7e98f9e02eedc
+Size: 191458
+SHA256sum: 41330e7bb90f1e4542dfd1c64b30e44613c7b7c8bdf01bd0a4ac48d31c718659
 Description:  Kernel module support for nftables
 
 Package: kmod-nft-dup-inet
@@ -12174,7 +12174,7 @@ Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: kmod-ngbe_6.18.16-r1_aarch64_generic.ipk
 Size: 16557
-SHA256sum: 41891f1604d4e5411cce1857a0e0ecaab1a212fa5efbe6d73f5eb63bd66ea6e5
+SHA256sum: 0353f0d62d3baceb6d168aa8bfcabddb4b217ca0d54c3f1a292f9e4ec1afbb5b
 Description:  Kernel modules for Wangxun(R) GbE PCI Ethernet chipsets
 
 Package: kmod-niu
@@ -12631,8 +12631,8 @@ SourceDateEpoch: 1761834324
 Architecture: aarch64_generic
 Installed-Size: 2867200
 Filename: kmod-oaf_6.18.16-r1_aarch64_generic.ipk
-Size: 952111
-SHA256sum: 7576c38dd8a14b8450575ae1d6bdd89fdf3cb522933ff39947f6452d60c3efd1
+Size: 952257
+SHA256sum: 6ae21d192e9a7e2c2c901c76f08b3c9fb0ffdad1351a6f6d5b2dbd9d3e125c16
 Description:  open appfilter kernel module 
 
 Package: kmod-octeontx2-net
@@ -12648,8 +12648,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 1566720
 Filename: kmod-octeontx2-net_6.18.16-r1_aarch64_generic.ipk
-Size: 448850
-SHA256sum: abf0f6ab3085c18ec3a5b74841d490db9111ec4658db9f976ebb085e59600a2f
+Size: 448890
+SHA256sum: f4d2dc6a91511af93466c5811f7d85fdb8610fbd63ad9c91e8f975cd28ea789c
 Description:  Marvell (Cavium) ThunderX2 network drivers
 
 Package: kmod-of-mdio
@@ -12754,8 +12754,8 @@ Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 307200
 Filename: kmod-openvswitch_6.18.16.2.17.9-r1_aarch64_generic.ipk
-Size: 94904
-SHA256sum: 8a3b1e80cb65541f79d21c430d5dc86e33c8e41c7a79be236fc880472a114807
+Size: 94872
+SHA256sum: 2434d52efdc35d8ea8a6e91e97c29f6554f66bcee9c375e6aed8147e5142c150
 Description:  Open vSwitch kernel datapath (upstream)
 
 Package: kmod-ovpn-dco-v2
@@ -12770,8 +12770,8 @@ Maintainer: Jianhui Zhao <zhaojh329@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 122880
 Filename: kmod-ovpn-dco-v2_6.18.16.0.2.20251017-r1_aarch64_generic.ipk
-Size: 35984
-SHA256sum: 24876494e79b24ad20de6c0bcef1edc834f2a915bb2edd8c6d22479a92213fb4
+Size: 35971
+SHA256sum: abab9a8c012d32c67fa8650edd3b211dd0b2d0052ae267532a7b7908386819eb
 Description:  This module enhances the performance of the OpenVPN userspace software
  by offloading the data channel processing to kernelspace.
 
@@ -13311,8 +13311,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 122880
 Filename: kmod-ppdev_6.18.16-r1_aarch64_generic.ipk
-Size: 31862
-SHA256sum: 64e4fe7d9dd231d1825f98281085be608e09a7d0e8c9c1bcd5cfb61ff7390442
+Size: 31829
+SHA256sum: c779e9a375873558457e5b4b637b1c95aa7777de3815ef122afc41fb65047630
 Description:  Parallel port support
 
 Package: kmod-ppp-synctty
@@ -13556,8 +13556,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 634880
 Filename: kmod-qlcnic_6.18.16-r1_aarch64_generic.ipk
-Size: 175275
-SHA256sum: 07644a902459e294be50d8632dee13092bd28b1ca8c31879cd9fa6b0b8942be7
+Size: 175288
+SHA256sum: b9ec65b01c7cad2e0b82204d7a398b20ae058bfe89dc1e99d536f4569a86c52a
 Description:  This driver supports QLogic QLE8240 and QLE8242 Converged Ethernet
  devices.
 
@@ -13640,8 +13640,8 @@ SourceDateEpoch: 1767760284
 Architecture: aarch64_generic
 Installed-Size: 450560
 Filename: kmod-r8101_6.18.16.1.039.00-r1_aarch64_generic.ipk
-Size: 85586
-SHA256sum: e2c8d7d446e5b227ace4988738147972ca62a7bb5d03dd4b231da92de6160584
+Size: 85577
+SHA256sum: 9aabbf131ff94c8e3416225caf6e7d552d044c50fc7c66fe6992fb0cab218603
 Description:  Driver for Realtek r8101 chipsets
 
 Package: kmod-r8125
@@ -13702,8 +13702,8 @@ SourceDateEpoch: 1738587033
 Architecture: aarch64_generic
 Installed-Size: 1054720
 Filename: kmod-r8168_6.18.16.8.055.00-r1_aarch64_generic.ipk
-Size: 175708
-SHA256sum: 6752dc4c4152a42e021f12c95cdf50e9d4cd5695bf489596819c876c8ec411dd
+Size: 175778
+SHA256sum: a50fc4cff80764675b9902b8e0e5f0bff7881a8fe272cc44ced43cbb1539cb45
 Description:  Driver for Realtek r8168 chipsets
 
 Package: kmod-r8169
@@ -14511,8 +14511,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1064960
 Filename: kmod-rtl8723bs_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 317365
-SHA256sum: aae9b07c7b1616c305223b067c79d018207d893df5d3d62e44ee73279eead46b
+Size: 317340
+SHA256sum: 264a71e44e7a79cac7b8e8b851ddb9a990fa597e3b3f8fe4cbc37b7f58b9cec3
 Description:  This option enables support for RTL8723BS SDIO drivers, such as the wifi found
  on the 1st gen Intel Compute Stick, the CHIP and many other Intel Atom and ARM
  based devices.
@@ -14547,8 +14547,8 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 4464640
 Filename: kmod-rtl8822cs_6.18.16.5.15.8.3-r17_aarch64_generic.ipk
-Size: 1191534
-SHA256sum: 6bdf36d3a7537bcab7931e358b67890c2649583cc03e58ccd89d6531fd3f638b
+Size: 1191389
+SHA256sum: 504613f6e14cbad1a6d4305a50bf37278704a8ddba81eacc83ff5241f686e44d
 Description:  Realtek RTL8822CS SDIO WiFi support (High Performance)
 
 Package: kmod-rtl8852au
@@ -14563,8 +14563,8 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: aarch64_generic
 Installed-Size: 7393280
 Filename: kmod-rtl8852au_6.18.16.1.15.0.1-r1_aarch64_generic.ipk
-Size: 2339721
-SHA256sum: 7265ac12bf44da8befb4617479fc34168518caf2e046d2694982c302d68370e2
+Size: 2339639
+SHA256sum: 15c888bd3190fae485f98ba0d4538773d9169b2968b283204e839f193d47e474
 Description:  Realtek RTL8852AU / RTL8832AU support (out-of-tree)
 
 Package: kmod-rtl8xxxu
@@ -14619,8 +14619,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 440320
 Filename: kmod-rtlwifi-btcoexist_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 106811
-SHA256sum: d79f7b0a01463b531d4420cb2e39a5237aa633cc7518f1e5478138099669d123
+Size: 106842
+SHA256sum: 736c08dd37988a4b0e0ec63b3b0dad4d6682935068b5cd64ed708b5a5fa80afd
 Description:  Realtek BT coexist support
 
 Package: kmod-rtlwifi-pci
@@ -14673,8 +14673,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 256000
 Filename: kmod-rtlwifi_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 88617
-SHA256sum: 57862d4370a013d51954811b14ee6728134c3ba4c685f28c03e3df90880aa72c
+Size: 88610
+SHA256sum: 3acf637662b4999442c1fb9dab56e4c398373d7e501df5a1d51e0fdd9454d65c
 Description:  Realtek common driver part
 
 Package: kmod-rtw88-8723d
@@ -15159,8 +15159,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 409600
 Filename: kmod-rtw88_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 132700
-SHA256sum: a17d8159e13ad5661f3348807a4f411256b96436c9ce75838aff256444df7fe9
+Size: 132705
+SHA256sum: b7ba66cb5befd027db2bf311e10444cc6fa969c19b71ead18eb8dfa03f816be6
 Description:  Realtek RTW88 common part
 
 Package: kmod-rtw89-8851be
@@ -15195,8 +15195,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1034240
 Filename: kmod-rtw89-8852ae_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 174348
-SHA256sum: 38d381b98d162464b9f47257ae61c385f25e04c10e09a448d9040e23acdae1f1
+Size: 174320
+SHA256sum: f6d6a1fb4562d9cc2f5bd7af3ca01c30d7e3bf9fb75d0ef7decac18042a6562b
 Description:  Realtek RTL8852AE support
 
 Package: kmod-rtw89-8852b-common
@@ -15249,8 +15249,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1310720
 Filename: kmod-rtw89-8852ce_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 194421
-SHA256sum: e9862152cb6697785919457a73bc782c1e832cec9a9e8768c659997d6ae94bcd
+Size: 194313
+SHA256sum: 7ab50506d8f515536f4cb2fca336bdb8064d0cee374167959604a20ffce6f4be
 Description:  Realtek RTL8852CE support
 
 Package: kmod-rtw89-8922ae
@@ -15267,8 +15267,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 389120
 Filename: kmod-rtw89-8922ae_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 126990
-SHA256sum: 9622cf011cf456023369480bf1a166cc87c20abe9274b3828501ee9b5fac0dc1
+Size: 126998
+SHA256sum: a691414b8353bda3fa441561491cd276a4f18c4ce3d0108a4762dcb778e01af5
 Description:  Realtek RTL8922AE support
 
 Package: kmod-rtw89-pci
@@ -15303,8 +15303,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 1331200
 Filename: kmod-rtw89_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 404273
-SHA256sum: 6be670ca11c4841ffb9b3f1de05a082f815668cdae381a8eb4dc0ec9c609ca7f
+Size: 404267
+SHA256sum: b264b3d66721c2cc949eeeacc0ffd78037cc82ab4ae4440d3d4bc34a43acb38e
 Description:  Realtek RTW89 core
 
 Package: kmod-sched-act-ipt
@@ -15745,8 +15745,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 788480
 Filename: kmod-sctp_6.18.16-r1_aarch64_generic.ipk
-Size: 213736
-SHA256sum: 7d587b02b9af2a9a8aedd3e65fe405c35ae831c8de2e4abc996c701ead4d09fe
+Size: 213758
+SHA256sum: e597f7e3b8ff1331caaa9f494d7464597b99db9cbca398bebba252573d9baf73
 Description:  Kernel modules for SCTP protocol support
 
 Package: kmod-sdhci
@@ -15813,8 +15813,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 337920
 Filename: kmod-sfc-falcon_6.18.16-r1_aarch64_generic.ipk
-Size: 100691
-SHA256sum: 698c4f571884ce784321c0d2e8e0870f03bd14120332b47bc40fbafa0f0ef582
+Size: 100663
+SHA256sum: f720f66f69e084cee8c7ce300766f4a480bdd05a9f1c686a3e52f0fd63fd642e
 Description:  Solarflare SFC4000 support
 
 Package: kmod-sfc
@@ -15830,8 +15830,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 849920
 Filename: kmod-sfc_6.18.16-r1_aarch64_generic.ipk
-Size: 247435
-SHA256sum: b9dc8fe60fcd5a5de784a0201722fdfa038ea512b51ef7a9cbd6afe3bb38958d
+Size: 247410
+SHA256sum: 001f6e14df1e4dac9c8e7a43a9a58ca5e9f107d8bd6ea308722c7317fcc3d305
 Description:  Solarflare SFC9000/SFC9100/EF100-family support
  Solarflare EF100 support requires at least kernel version 5.9
 
@@ -16041,8 +16041,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 829440
 Filename: kmod-sound-core_6.18.16-r1_aarch64_generic.ipk
-Size: 241196
-SHA256sum: ed18906c84042d7113a541e2526b62047fb1ac69cd041b5f604301ecc0687769
+Size: 241231
+SHA256sum: e52481a945686f4645869116b423f867f9a8062be7b5dd47c070ffcc3c7e5c05
 Description:  Kernel modules for sound support
 
 Package: kmod-sound-dummy
@@ -16367,8 +16367,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 450560
 Filename: kmod-sound-soc-core_6.18.16-r1_aarch64_generic.ipk
-Size: 117115
-SHA256sum: 460d259d6d6ab5531079d0913f50fb3995e1695fb4ac9264819abde45bdd6bf2
+Size: 117129
+SHA256sum: f9c96c09d1ad1bc01e0f892643df2b5dd52bd56febd1eff0dd18d655d5844b9a
 Description:  SoC sound support
 
 Package: kmod-sound-soc-dmic
@@ -16504,8 +16504,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 122880
 Filename: kmod-ssb_6.18.16-r1_aarch64_generic.ipk
-Size: 37296
-SHA256sum: 9cf2a26280c62448677aed0eee1193a2657af78a95a0ddab794d142eacd6dd07
+Size: 37299
+SHA256sum: b40ea81c2aea74de97357042e8fd9f2f7fb1a7a84c8ed7a052b0dfd61283de9d
 Description:  Silicon Sonics Backplane glue code.
 
 Package: kmod-stmmac-core
@@ -16521,8 +16521,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 604160
 Filename: kmod-stmmac-core_6.18.16-r1_aarch64_generic.ipk
-Size: 170574
-SHA256sum: 080b0740a7d3a5942a46c7f76a034fe529500a8576938f25487640e62a989c6d
+Size: 170571
+SHA256sum: 491b908eed26c7061e02a916fc4e1464b36c08442d4ec9fce138f2c1a864e33f
 Description:  Synopsis Ethernet Controller core (NXP,STMMicro,others)
 
 Package: kmod-swconfig
@@ -16556,7 +16556,7 @@ Architecture: aarch64_generic
 Installed-Size: 122880
 Filename: kmod-switch-ar8xxx_6.18.16-r1_aarch64_generic.ipk
 Size: 29972
-SHA256sum: 94e8bcf8474cb1860a16e07d99f2ccdb40612c6db6479bb85ecd25fc90ff743d
+SHA256sum: e64b2c93cc6b9eeb52944cf53c4b730586076a69b766dc44f50f6dd1bec2240c
 Description:  Atheros AR8216/8327 switch support
 
 Package: kmod-switch-ip17xx
@@ -16717,8 +16717,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 225280
 Filename: kmod-thunderx-net_6.18.16-r1_aarch64_generic.ipk
-Size: 67569
-SHA256sum: 5af15aca6268a83d0fd4bc5f8701f360a11c5e988b6ab2d38dc5a5547d94c4b4
+Size: 67588
+SHA256sum: 7a7045ce2227d39bef90c1259082e473d3aa331f16dbf60128f3b5cc6d952042
 Description:  Marvell (Cavium) Thunder network drivers
 
 Package: kmod-tls
@@ -16734,8 +16734,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 194560
 Filename: kmod-tls_6.18.16-r1_aarch64_generic.ipk
-Size: 56975
-SHA256sum: 1e0a549375bfebbded4f4f26a864603988b328a2212ce2f86b86b181aada4429
+Size: 56956
+SHA256sum: ba8dece6363ae73b947cffb77c9077a0035e88819815ac07214bae0e30b6d3ac
 Description:  Kernel module for in-kernel TLS protocol support and hw offload
  (to supported interfaces).
  This allows symmetric encryption handling of the TLS protocol to
@@ -16788,8 +16788,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 163840
 Filename: kmod-tpm_6.18.16-r1_aarch64_generic.ipk
-Size: 40633
-SHA256sum: 3403a42ee3b6bc7d6c994b64ccec37d2ab41fef581218bee1621c347cb88d790
+Size: 40666
+SHA256sum: 5a943c4a53a19cb755ed652d55fe38d0606b60eee26d3d5b23e96235222a4a20
 Description:  This enables TPM Hardware Support.
 
 Package: kmod-trelay
@@ -16823,8 +16823,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 317440
 Filename: kmod-tulip_6.18.16-r1_aarch64_generic.ipk
-Size: 95914
-SHA256sum: ced4f7b184465b45b4c3f03c7fef2c40125edf2f8fd352c34f74b53c40d2d94b
+Size: 95916
+SHA256sum: 2fce1609dcb60235b14a0bce472db1025e7cd8482bfd1b19c35cb0bf2a59291b
 Description:  Kernel modules for the Tulip family of network cards,
  including DECchip Tulip, DIGITAL EtherWORKS, Winbond W89c840,
  Davicom DM910x/DM980x and ULi M526x controller support.
@@ -17014,8 +17014,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 921600
 Filename: kmod-usb-audio_6.18.16-r1_aarch64_generic.ipk
-Size: 223707
-SHA256sum: 3644cbdbf4b766c533007466f081df59dff6cdcf1044f898f4999d1edf5d33df
+Size: 223768
+SHA256sum: a5c31f46695237143d5309bd6fbab7d5e2c44b51be14fda39a427a82777b5ae3
 Description:  Kernel support for USB audio devices
 
 Package: kmod-usb-cdns3
@@ -17360,8 +17360,8 @@ SourceDateEpoch: 1768668897
 Architecture: aarch64_generic
 Installed-Size: 153600
 Filename: kmod-usb-net-gobinet_6.18.16.1.6.3-r1_aarch64_generic.ipk
-Size: 40811
-SHA256sum: 3d3d4b335a54a350dcc1c4fecd6a46ef280bf8ad5cd9fd55d7904f8a73c2dae7
+Size: 40802
+SHA256sum: 608ec76882d9c1513c7855b47d4ce6527c20db46440b1e96d17ecf76ab972405
 Description:  Gobinet driver for Quectel modules
 
 Package: kmod-usb-net-hso
@@ -18271,8 +18271,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: kmod-usb-serial_6.18.16-r1_aarch64_generic.ipk
-Size: 19592
-SHA256sum: abfbe09b39b161cd36d17f9f31b758cd0d460bb2595e824c674bde22084b03e9
+Size: 19589
+SHA256sum: e7b0d868bc24af87a253cbe86517de99a9210810f034023cbeeb7c176abdc982
 Description:  Kernel support for USB-to-Serial converters
 
 Package: kmod-usb-storage-extras
@@ -18531,8 +18531,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: kmod-usbmon_6.18.16-r1_aarch64_generic.ipk
-Size: 19225
-SHA256sum: 93192b44da330435411ee3127d8cf7e751343b18c2d55d2bcd9c75616d858865
+Size: 19227
+SHA256sum: fbef3d279173fa6c98e5d8da20cbd3bcdb4a90750d37c571e6697321f7e016ec
 Description:  Kernel support for USB traffic monitoring
 
 Package: kmod-v4l2loopback
@@ -18587,8 +18587,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 153600
 Filename: kmod-vfio-pci_6.18.16-r1_aarch64_generic.ipk
-Size: 42768
-SHA256sum: 74f6c2dae6e52e47c6920d874d7ff33ef2ea110c1c1f60984cb5537c20286314
+Size: 42763
+SHA256sum: 3b80e4ce3307c1b49f7e638d789ae7213dac0fc5ec0a8f24f2b46dc0d1e78de5
 Description:  Support for the generic PCI VFIO bus driver which can connect any PCI
  device to the VFIO framework.
 
@@ -18605,8 +18605,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 163840
 Filename: kmod-vfio_6.18.16-r1_aarch64_generic.ipk
-Size: 47688
-SHA256sum: 82a1c0f7a909ea8180677bd9f69ba5df5686184b51ebecdf7c446de277da2fac
+Size: 47700
+SHA256sum: 719aa23ddd0f4f44beacaeaa78384eecb4e4ba5fdfba9b4d7729dce49dfb5a87
 Description:  VFIO provides a framework for secure userspace device drivers.
 
 Package: kmod-vhost-net
@@ -18707,8 +18707,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 501760
 Filename: kmod-video-core_6.18.16-r1_aarch64_generic.ipk
-Size: 133138
-SHA256sum: 44acbf242d77a9288988113a6c2b052efbfb521c02ed0e8b2a29c3002d6787b6
+Size: 133134
+SHA256sum: 8b300de38b103add7d3f43c40d2071365e9b8950fc5ba44d12a11c4496262899
 Description:  Kernel modules for Video4Linux support
 
 Package: kmod-video-cpia2
@@ -19304,7 +19304,7 @@ Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-video-gspca-stv06xx_6.18.16-r1_aarch64_generic.ipk
 Size: 32381
-SHA256sum: 4fec7f2fcd3028e54df0a58889ad03e572da39ab7af060c18aafd5a0d5c73b61
+SHA256sum: 768e3238ec9147ce0b4218aeb1b480c8370e86ca89afc83a927ee7ea8d3f67a1
 Description:  The STV06XX USB Camera Driver (stv06xx) kernel module
 
 Package: kmod-video-gspca-sunplus
@@ -19439,8 +19439,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 286720
 Filename: kmod-video-uvc_6.18.16-r1_aarch64_generic.ipk
-Size: 87201
-SHA256sum: a4d4fbc7893f4da1dfe0d77b1aaee3d0b2753d60da459dccd1bd5923ee5d2b5c
+Size: 87196
+SHA256sum: aa3121b22a0b3787149d7de29950f3c227b2e911515cdcb67110ecddda729e92
 Description:  Kernel modules for supporting USB Video Class (UVC) devices
 
 Package: kmod-video-videobuf2
@@ -19473,8 +19473,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 133120
 Filename: kmod-vmxnet3_6.18.16-r1_aarch64_generic.ipk
-Size: 45683
-SHA256sum: 1100d6568355c5a2aa18ed155ccf00d651b135e21d24b2816bfddb2095e342d6
+Size: 45678
+SHA256sum: 68065eaf3522fd82cb301363c81e51c25af35fe9c1d1e8090de2ad15c06184f8
 Description:  Kernel modules for VMware VMXNET3 ethernet adapters.
 
 Package: kmod-vrf
@@ -19508,8 +19508,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 204800
 Filename: kmod-vxlan_6.18.16-r1_aarch64_generic.ipk
-Size: 66389
-SHA256sum: fae92e99da80cca18fdced315e3863dc08a5171b6664f46aa2de2febdab808ac
+Size: 66387
+SHA256sum: dace4f9026308faf13518b4a1cf7a61dd838931140741f52cd6faa6c85cb5143
 Description:  Kernel module for supporting VXLAN in the Kernel.
  Requires Kernel 3.12 or newer.
 
@@ -19684,8 +19684,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 634880
 Filename: kmod-wil6210_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 181867
-SHA256sum: 906a098b6823133e55b0019f2a2752ecf27ae2ba7b4d6066616e46735a43ec63
+Size: 181899
+SHA256sum: 8feff5885a57391a01ce1a72cf91297c1422d7e6f724de024f6a9b6cbfd4cd7a
 Description:  QCA/Wilocity 60g WiFi card wil6210 support
 
 Package: kmod-wireguard
@@ -19760,8 +19760,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 583680
 Filename: kmod-wlcore_6.18.16.6.18.14-r1_aarch64_generic.ipk
-Size: 165529
-SHA256sum: aaecf747d7c546c2d71ed36ff36427e22bcfaecd2de8b17696c0b19089f239ae
+Size: 165544
+SHA256sum: d5e77295325e719b10c939126dc5c1f0c416fc093eeba450f732cd5d207c2c68
 Description:  This module contains some common parts needed by TI Wireless drivers.
 
 Package: kmod-wwan
@@ -19828,8 +19828,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: kmod-zram_6.18.16-r1_aarch64_generic.ipk
-Size: 31142
-SHA256sum: 8ace6181aa4309e90ed0aaec14c725429cae9dd1f12da0b17601f4795b610571
+Size: 31156
+SHA256sum: 50cdcbb3e30e74be613de14eb53456ef82347d70ab6e915d2ff24f2443d8ab76
 Description:  Compressed RAM block device support
 
 Package: libatomic1
@@ -19861,14 +19861,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1773147498
+SourceDateEpoch: 1773194169
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
-Installed-Size: 19281920
+Installed-Size: 19292160
 Filename: libdpdk_24.07-r1_aarch64_generic.ipk
-Size: 8250346
-SHA256sum: 00f2bfcefe1f1cbabeef9b70aa1acb5ac8796d14bb70d5157502fae48736ff26
+Size: 8244832
+SHA256sum: 703fef32bf365975faeb3d36b9c3ac66612ddcc0c08b6fb6f0d8bf0cb8c9acd2
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -19995,13 +19995,13 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1773147498
+SourceDateEpoch: 1773194169
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_aarch64_generic.ipk
-Size: 24879
-SHA256sum: d8f4c7b3b1ecd88dce82110a6b6976c6c8812806cb473e9c892c2135e0e741ce
+Size: 24922
+SHA256sum: a2f9b41393c5b4328174bd7f4c92acc6bc37a1a33a6411c4586dbf97359aff92
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -20079,8 +20079,8 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
 Installed-Size: 399360
 Filename: libxdp151_1.5.1-r1_aarch64_generic.ipk
-Size: 91042
-SHA256sum: c05869f7a402783195625d85fd24bd6009118d4e09912e87ce6c0170dc77da7d
+Size: 90932
+SHA256sum: 413944b4b0dd7c7d39e35ac7ce52b3622d605e7eae186fd96c19c0cc2dce107a
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -20267,14 +20267,14 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1773147498
+SourceDateEpoch: 1773194169
 URL: https://github.com/numactl/numactl
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_aarch64_generic.ipk
-Size: 44236
-SHA256sum: 1b9e4267591d948e6cd09ef9dc74bf09ab65386a3e3260e73dec61a130c1ecf5
+Size: 44222
+SHA256sum: f8f79255fac4dfe8daded9eda5d4ef18755ca86f6696618e420f1bc6edd80d97
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
@@ -20290,8 +20290,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 3235840
 Filename: perf_6.18.16-r7_aarch64_generic.ipk
-Size: 1391799
-SHA256sum: 399d8aaf2a30a0c164a98da862311d4f92bbe07d966ea8e76020d474feabad03
+Size: 1391793
+SHA256sum: 324a65f2a7da5069738a05a8793d249fcabb49e339e40d2c5705947604e2a88f
 Description:  perf is the Linux performance monitoring tool
 
 Package: qosify
@@ -20306,8 +20306,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: qosify_2024.09.20~1501e093-r1_aarch64_generic.ipk
-Size: 26556
-SHA256sum: f63e535f81627c9f6f5a4797bd2bda60bab842d8bb264a7220e40e2c700e7ead
+Size: 26577
+SHA256sum: 8d3335f22c03c7c5c9be38226d3a65bf970af58265f62c9394aa0165bb84e546
 Description:  A simple QoS solution based eBPF + CAKE
 
 Package: quectel-cm
@@ -20452,8 +20452,8 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
 Installed-Size: 215040
 Filename: xdp-filter_1.5.1-r1_aarch64_generic.ipk
-Size: 58488
-SHA256sum: 63ff5c392b96010c24012f33debeb97ecadd43b2e04addcef31cd0ba5e2172ac
+Size: 58536
+SHA256sum: 06f6b04c18c1fa062177898bdb328a866c1284f9d88d58536a6d7d443fc7c34c
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -20472,8 +20472,8 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
 Installed-Size: 143360
 Filename: xdp-loader_1.5.1-r1_aarch64_generic.ipk
-Size: 53945
-SHA256sum: b882aac77b7fc130fdef9f924119939942fa3be6de00cc6a932badbb23096531
+Size: 54032
+SHA256sum: cbea21161ada725ae853be05fa52e0fcfa6b9fc0781590b6b47b8a6d3d54e6e9
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -20491,8 +20491,8 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: aarch64_generic
 Installed-Size: 215040
 Filename: xdpdump_1.5.1-r1_aarch64_generic.ipk
-Size: 62562
-SHA256sum: fa2e935a36edafb1f34080ed64a105f3884f9bb32fd04a77221da91d53eb41e1
+Size: 62628
+SHA256sum: 421a86aa3d60bd951e26a0ccfb22e3df264c5788b32914cda2afbf2e78ad78d6
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
