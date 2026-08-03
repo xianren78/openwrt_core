@@ -745,6 +745,7 @@
     "kmod-openvswitch-gre": "6.18.40.2.17.9-r1",
     "kmod-openvswitch-vxlan": "6.18.40.2.17.9-r1",
     "kmod-openvswitch": "6.18.40.2.17.9-r1",
+    "kmod-ovpn-dco-v2": "6.18.40.0.2.20260526-r1",
     "kmod-owl-loader": "6.18.40.7.0.13-r1",
     "kmod-parport-pc": "6.18.40-r1",
     "kmod-pcmcia-core": "6.18.40-r1",

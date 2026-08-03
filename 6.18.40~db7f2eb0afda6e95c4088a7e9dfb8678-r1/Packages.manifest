@@ -44,8 +44,8 @@ URL: http://openwrt.org/
 Architecture: x86_64
 Installed-Size: 276480
 Filename: base-files_1~443ec4032a_x86_64.ipk
-Size: 52738
-SHA256sum: dae756e2c0e00155e1279a3c2495c42cf0f9e65610f31f8bb8f42b7b360c33a2
+Size: 52740
+SHA256sum: 0067d280275c64fdc79463f24cee6d5583ac7bbff298151abf571a1a0bb80f23
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -139,14 +139,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1785487131
+SourceDateEpoch: 1785746979
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: x86_64
 Installed-Size: 1351680
 Filename: dpdk-tools_24.07-r1_x86_64.ipk
-Size: 368887
-SHA256sum: 4c0da19477da4f0e28e10551bdbeb6fe4536da257d28321c85b44db7997f2986
+Size: 368935
+SHA256sum: ce57a92a3686e2cd6ff371de7f609ff1d346202ecf27ba37e0b7cf78528be2ea
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -13143,6 +13143,23 @@ Size: 91914
 SHA256sum: d1fc29d4b5e7bce543dbd511fcb027d77e365bcabd506cb888ef8176ce85c40b
 Description:  Open vSwitch kernel datapath (upstream)
 
+Package: kmod-ovpn-dco-v2
+Version: 6.18.40.0.2.20260526-r1
+Depends: kernel (=6.18.40~db7f2eb0afda6e95c4088a7e9dfb8678-r1), kmod-crypto-aead, kmod-udptunnel4, kmod-udptunnel6
+Source: feeds/packages/kernel/ovpn-dco
+SourceName: ovpn-dco
+License: GPL-2.0-only
+Section: kernel
+SourceDateEpoch: 1784898749
+Maintainer: Jianhui Zhao <zhaojh329@gmail.com>
+Architecture: x86_64
+Installed-Size: 112640
+Filename: kmod-ovpn-dco-v2_6.18.40.0.2.20260526-r1_x86_64.ipk
+Size: 33183
+SHA256sum: e3cc9835a5044023d3d78946bfb0377c820c4e136d2fe26d428331ac36840304
+Description:  This module enhances the performance of the OpenVPN userspace software
+ by offloading the data channel processing to kernelspace.
+
 Package: kmod-owl-loader
 Version: 6.18.40.7.0.13-r1
 Depends: kernel (=6.18.40~db7f2eb0afda6e95c4088a7e9dfb8678-r1), kmod-ath9k
@@ -20398,14 +20415,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1785487131
+SourceDateEpoch: 1785746979
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: x86_64
 Installed-Size: 28815360
 Filename: libdpdk_24.07-r1_x86_64.ipk
-Size: 10677218
-SHA256sum: 1b8b706954bbf0fff5d3abf99b43f94cc064c825698a7d7b7b7ffe0a2755fd82
+Size: 10686748
+SHA256sum: adbe09174aabec9288b29f50e022b71fdf9340b373c75a33f87e55765d579189
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -20532,13 +20549,13 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1785487131
+SourceDateEpoch: 1785746979
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: x86_64
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_x86_64.ipk
-Size: 22312
-SHA256sum: 438ce339df6e2df8c3d416051388701197a8d5add3db68fc39b36ccfd196969a
+Size: 22318
+SHA256sum: 55d075c459c621d7e1d7b5b14329702fc8627c002cc41a27d1abd06234f4edcb
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -20842,14 +20859,14 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1785487131
+SourceDateEpoch: 1785746979
 URL: https://github.com/numactl/numactl
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: x86_64
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_x86_64.ipk
 Size: 43450
-SHA256sum: 0c717c3511963351aff58844558d488b9a500230446e3a3c73c72d7f88573f92
+SHA256sum: ad60ccfec3120de3ad240f9c62490f81a386ed3d119545e0fa84b5a9d3d65a78
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
