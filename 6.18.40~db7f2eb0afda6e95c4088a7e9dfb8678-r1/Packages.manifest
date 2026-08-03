@@ -44,8 +44,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_generic
 Installed-Size: 266240
 Filename: base-files_1~443ec4032a_aarch64_generic.ipk
-Size: 52642
-SHA256sum: 6c593116e86f4c104c5eb30870443224460a92e4691e7ae3d74b7432b9f986c7
+Size: 52643
+SHA256sum: 07259c02fc3b01f17292423af39edb2b53191161bac9494050485b7c31c06a25
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -139,14 +139,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1785487091
+SourceDateEpoch: 1785746934
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 1495040
 Filename: dpdk-tools_24.07-r1_aarch64_generic.ipk
-Size: 342957
-SHA256sum: f02fe6468db1ede944da229efa8cd8dbeda48c673e58f599460c9da6109fcd92
+Size: 342922
+SHA256sum: d151899b10f4134322f40a94f5dce3d098b96bf71b704fd3a78c7a5a9210094d
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -12796,6 +12796,23 @@ Size: 95437
 SHA256sum: fa3e73a0b4583d0a33de388f6de054b4f482a238927d15ea961e49fdb85f3c48
 Description:  Open vSwitch kernel datapath (upstream)
 
+Package: kmod-ovpn-dco-v2
+Version: 6.18.40.0.2.20260526-r1
+Depends: kernel (=6.18.40~db7f2eb0afda6e95c4088a7e9dfb8678-r1), kmod-crypto-aead, kmod-udptunnel4, kmod-udptunnel6
+Source: feeds/packages/kernel/ovpn-dco
+SourceName: ovpn-dco
+License: GPL-2.0-only
+Section: kernel
+SourceDateEpoch: 1784898749
+Maintainer: Jianhui Zhao <zhaojh329@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 122880
+Filename: kmod-ovpn-dco-v2_6.18.40.0.2.20260526-r1_aarch64_generic.ipk
+Size: 36529
+SHA256sum: 9f51962f37224fa0fa474ac53df0a12aff74f77c8a926063072181b5ed22aede
+Description:  This module enhances the performance of the OpenVPN userspace software
+ by offloading the data channel processing to kernelspace.
+
 Package: kmod-owl-loader
 Version: 6.18.40.7.0.13-r1
 Depends: kernel (=6.18.40~db7f2eb0afda6e95c4088a7e9dfb8678-r1), kmod-ath9k
@@ -19912,14 +19929,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1785487091
+SourceDateEpoch: 1785746934
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 19281920
 Filename: libdpdk_24.07-r1_aarch64_generic.ipk
-Size: 8250041
-SHA256sum: 2a23ab19e61b2060780b87ca510144ed0261a2df9333ab5d7c5afe133ec1153c
+Size: 8230356
+SHA256sum: 8499e2cfb61e30a363abdd7d4742e8125d8762f1ebdfc5093d33aebc295e98e0
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -20046,13 +20063,13 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1785487091
+SourceDateEpoch: 1785746934
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_aarch64_generic.ipk
-Size: 24873
-SHA256sum: 10f5901160f2e93949d2fc0621cfae794c157fa80cb6e6bdc6f8a5648c965477
+Size: 24871
+SHA256sum: d2d27eb4ae7055b80105965ca2945f8e78fab8246e5d0a15f225123367cb8b91
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -20318,14 +20335,14 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1785487091
+SourceDateEpoch: 1785746934
 URL: https://github.com/numactl/numactl
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_aarch64_generic.ipk
-Size: 44230
-SHA256sum: 25f12fc8e55eee83ee923b8169411a97c766dc85dafcf1e49a241f03ed9d5deb
+Size: 44232
+SHA256sum: 8d3087afb1cf51df0ba02d7d4588a0588c42b1f87e1b6f8ea8637c758c7814ad
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
