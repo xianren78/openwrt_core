@@ -34,8 +34,8 @@ URL: http://openwrt.org/
 Architecture: x86_64
 Installed-Size: 276480
 Filename: base-files_1~443ec4032a_x86_64.ipk
-Size: 52743
-SHA256sum: 951bf795ccf47ac979803f7f942315517563e7e5f6aeaa3e27c6454319c1bdc8
+Size: 52738
+SHA256sum: 9f9aba56e55539be97ecd1612e82766d1fcbc5d62929c1f987c857c2ccea9668
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -110,8 +110,8 @@ URL: https://www.dpdk.org
 Architecture: x86_64
 Installed-Size: 1351680
 Filename: dpdk-tools_24.07-r1_x86_64.ipk
-Size: 368933
-SHA256sum: c6b1bac59492e9618e7b04cc1e5877f0ab77505694def562851c193417b8b875
+Size: 368880
+SHA256sum: 084feab8df4612c84aafa580e2075851140d671f87e5f61d62e210cb66100282
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -15696,8 +15696,8 @@ URL: https://www.dpdk.org
 Architecture: x86_64
 Installed-Size: 28815360
 Filename: libdpdk_24.07-r1_x86_64.ipk
-Size: 10676377
-SHA256sum: c9af3c67e8de0221f7f4dfeb9a350a5f54c1362039be3f97a1b2979133a562d4
+Size: 10687858
+SHA256sum: a391892fb6088b6a385ca4dbdc218bc7e56840895cc52e35fb1f583197a9525a
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -15805,8 +15805,8 @@ Section: libs
 Architecture: x86_64
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_x86_64.ipk
-Size: 22319
-SHA256sum: e6d5b1b7575f76d49b6784c9b3685be1f70dce408da94d570dd60f096fb9cf4c
+Size: 22313
+SHA256sum: 8543912ba2374b9f49129782e0cf1b423f1f7f1fe26961f7a68c4db0414dd2a5
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -16044,8 +16044,8 @@ URL: https://github.com/numactl/numactl
 Architecture: x86_64
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_x86_64.ipk
-Size: 43441
-SHA256sum: 23219fcc32a4bfc62efd6dbd6172df6aea5948a49a197584a2fbec4473ccf908
+Size: 43436
+SHA256sum: a9aaffa8d1046142bfe402bfaddded3885e14bb83daad305841268e4e56156be
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
