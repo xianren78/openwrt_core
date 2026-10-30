@@ -34,8 +34,8 @@ URL: http://openwrt.org/
 Architecture: x86_64
 Installed-Size: 276480
 Filename: base-files_1~443ec4032a_x86_64.ipk
-Size: 52740
-SHA256sum: 8727e87a10784871793a74b35773a2c7b974ca1be65391444ab805622242431e
+Size: 52738
+SHA256sum: d57c439bfee2403c83ee81ccbbdf0ea973a5164063fbd50d843cf66ae871607f
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -110,8 +110,8 @@ URL: https://www.dpdk.org
 Architecture: x86_64
 Installed-Size: 1351680
 Filename: dpdk-tools_24.07-r1_x86_64.ipk
-Size: 368899
-SHA256sum: c70d81d139139155f2d17670ba6a523a5050bdaf52684215013f7e1ccaa5b513
+Size: 368964
+SHA256sum: f88b5bf6b8ce16f0c40965a3bda75473486883b4acbb94c028a904e6144e50e3
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -10315,6 +10315,18 @@ Size: 11487
 SHA256sum: 9b411ceb376fa342edd350a1e9bf69b3079eb2293e06e76187ad0badcdfac54d
 Description:  This enables sounds (tones) through the pc speaker
 
+Package: kmod-pf-ring
+Version: 6.18.58.8.6.1-r1
+Depends: kernel (=6.18.58~cab6f089de4b87ac1f8457791f78e2d5-r1)
+License: GPL-2.0-or-later
+Section: kernel
+Architecture: x86_64
+Installed-Size: 225280
+Filename: kmod-pf-ring_6.18.58.8.6.1-r1_x86_64.ipk
+Size: 65497
+SHA256sum: acb7193f28873034b704f3d71dd15f4504a8df23382da289c63056e7b29c97a6
+Description:  Kernel module for libpf-ring package
+
 Package: kmod-phy-airoha-en8811h
 Version: 6.18.58-r1
 Depends: kernel (=6.18.58~cab6f089de4b87ac1f8457791f78e2d5-r1), airoha-en8811h-firmware, kmod-libphy
@@ -15697,8 +15709,8 @@ URL: https://www.dpdk.org
 Architecture: x86_64
 Installed-Size: 28815360
 Filename: libdpdk_24.07-r1_x86_64.ipk
-Size: 10683668
-SHA256sum: 6d64e80314621c0663c5c692f0e2ccc1206f86220ba668af162243f22de3855d
+Size: 10674878
+SHA256sum: 2f5b0a8f395c9fd274f7935f7224df142ed6c48a0a8c7c7e6fe1f0646538f0d8
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -15806,8 +15818,8 @@ Section: libs
 Architecture: x86_64
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_x86_64.ipk
-Size: 22314
-SHA256sum: 0547de50f651c74762bb7dbb5456a11fcb807ea7bad4f0fbc46e40167361423a
+Size: 22307
+SHA256sum: d65e6c5fc1cdb9650c4b324a20d0fc162153155cd0c97c06c1644390ffee0219
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -16045,8 +16057,8 @@ URL: https://github.com/numactl/numactl
 Architecture: x86_64
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_x86_64.ipk
-Size: 43454
-SHA256sum: d9cb6cc255b53b0f1590b5f1d24836f3db801e84ca2f3096d39c75a9a5f4584d
+Size: 43456
+SHA256sum: db7434c6c30ae693198fb2e8df79686f913ab7c2d867aa75847c4e48e2dcbd68
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 

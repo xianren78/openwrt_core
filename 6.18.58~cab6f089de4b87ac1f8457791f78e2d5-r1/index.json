@@ -758,6 +758,7 @@
     "kmod-pcnet32": "6.18.58-r1",
     "kmod-pcs-xpcs": "6.18.58-r1",
     "kmod-pcspkr": "6.18.58-r1",
+    "kmod-pf-ring": "6.18.58.8.6.1-r1",
     "kmod-phy-airoha-en8811h": "6.18.58-r1",
     "kmod-phy-amd": "6.18.58-r1",
     "kmod-phy-aquantia": "6.18.58-r1",
