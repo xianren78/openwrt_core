@@ -34,8 +34,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_generic
 Installed-Size: 266240
 Filename: base-files_1~443ec4032a_aarch64_generic.ipk
-Size: 52639
-SHA256sum: 577f26fbdae9434aa0ed1c5780708d8a8d0444792b220eb84227f14610e8b728
+Size: 52637
+SHA256sum: 9fa55fff0497881ca023c8c1e261fbdbde228c15dbee6f76de3a6494c558f3aa
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -110,8 +110,8 @@ URL: https://www.dpdk.org
 Architecture: aarch64_generic
 Installed-Size: 1495040
 Filename: dpdk-tools_24.07-r1_aarch64_generic.ipk
-Size: 342935
-SHA256sum: 3664a565ea2103b725e74ba21cf7472845ecb45fd26dd66836b7f745beca7ce8
+Size: 342884
+SHA256sum: f495fae85c329f4003d4b0e2a3bd31bc447fae9e6d39f1b13c9d667ccb88f986
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -9944,6 +9944,18 @@ Size: 14114
 SHA256sum: 48299e3f83fa5d819a112f4bca9279a3c6ae3c84ccc71aab4f4d2e02a7e06bd0
 Description:  Synopsis DesignWare PCS driver
 
+Package: kmod-pf-ring
+Version: 6.18.58.8.6.1-r1
+Depends: kernel (=6.18.58~cab6f089de4b87ac1f8457791f78e2d5-r1)
+License: GPL-2.0-or-later
+Section: kernel
+Architecture: aarch64_generic
+Installed-Size: 245760
+Filename: kmod-pf-ring_6.18.58.8.6.1-r1_aarch64_generic.ipk
+Size: 74141
+SHA256sum: 2368f014c6fa2812f32160375c878b4765efc14ba9fccc4975b915c45e3118ed
+Description:  Kernel module for libpf-ring package
+
 Package: kmod-phy-airoha-en8811h
 Version: 6.18.58-r1
 Depends: kernel (=6.18.58~cab6f089de4b87ac1f8457791f78e2d5-r1), airoha-en8811h-firmware, kmod-libphy
@@ -15310,8 +15322,8 @@ URL: https://www.dpdk.org
 Architecture: aarch64_generic
 Installed-Size: 19281920
 Filename: libdpdk_24.07-r1_aarch64_generic.ipk
-Size: 8252083
-SHA256sum: 8f6ad9c1cf08637e847488525e8fcf8f83928c6cef20a65e4273805543ae805b
+Size: 8247702
+SHA256sum: af4f878263bb9bf909aedd7f443e8ee32c70e9a6b8e67cfb171fee00a1da50b1
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -15419,8 +15431,8 @@ Section: libs
 Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_aarch64_generic.ipk
-Size: 24877
-SHA256sum: 2ddf29ed548038f8f95213c454ef43f7e6537913d0b7b4a5ed02a1380d47400c
+Size: 24868
+SHA256sum: 342b728fd69492bb6167992afb673d27a28a402a6be55cbe0f7aa6f8ecaec3bd
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -15629,8 +15641,8 @@ URL: https://github.com/numactl/numactl
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_aarch64_generic.ipk
-Size: 44237
-SHA256sum: 0cfec2b2470f3edc60ae1a0799cb1262711fb8f7073a6c40d2c28babdf2993ab
+Size: 44225
+SHA256sum: 3246a26ed320187da4423d452036532f50fc74379dcaf755b17d659c086c541b
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
